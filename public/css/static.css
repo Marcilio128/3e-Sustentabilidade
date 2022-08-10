@@ -1,0 +1,10 @@
+/*MENU INICIO*/
+.sec-start{
+
+}
+.items{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+/*MENU*/
