@@ -2,8 +2,9 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
 }
+
 :root{
     --color-primary: rgb(203,86,22);
     --color-secondary: rgb(254, 204, 22);
@@ -14,12 +15,16 @@
     --color-mbl-menu: rgba(255, 255, 255, 0.375);
     --color-underline: rgba(170, 255, 0, 0.653);
 }
+
 .items{
     list-style: none;
 }
+
 a{
     text-decoration: none;
+    font-weight: 400;
 }
+
 main{
     bottom: 0;
     flex: 1;

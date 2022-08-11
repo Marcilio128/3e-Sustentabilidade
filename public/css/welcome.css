@@ -1,0 +1,85 @@
+.text-welcome{
+    padding: 5rem 1rem 0.8rem 4rem;
+    max-width: 50%;
+
+}
+
+.sec-welcomeOne .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-welcome p{
+    font-size: 1.2rem;
+}
+
+.animation{
+    width: 450px;
+    height: 450px;
+    margin-right: 3rem;
+}
+
+.sec-welcometwo .container h1{
+    text-align: center;
+}
+
+@media only screen and (max-width:950px){
+    .text-welcome{
+        padding: 5rem 1rem 0.8rem 4rem;
+        max-width: 60%;
+    
+    }
+
+    .animation{
+        margin-right: 1rem;
+        
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .sec-welcomeOne .container{
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .animation{
+        margin-right: 1rem;
+        
+    }
+    
+    .text-welcome{
+        max-width: 85%;
+        padding: 3rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 550px){ 
+    .text-welcome{
+        max-width: 100%;
+        padding: 1rem;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 400px){ 
+    .animation{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 350px){ 
+    .text-welcome h1{
+        padding: 1rem 0 1rem 0;
+    }
+ 
+    .text-welcome{
+        padding: 0rem 0 2rem 0;
+    }
+ 
+    .animation{
+        display: none;
+        
+    }
+}

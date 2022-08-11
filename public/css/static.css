@@ -17,7 +17,9 @@ a{
     position: relative;
     color: var(--text-color);
 }
-
+p{
+    font-weight: 300;
+}
 li a:before {
     content: "";
     position: absolute;
