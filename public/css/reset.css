@@ -4,9 +4,23 @@
     box-sizing: border-box;
 
 }
+:root{
+    --color-primary: rgb(203,86,22);
+    --color-secondary: rgb(254, 204, 22);
+    --color-underline: rgba(255, 94, 7, 0.849);
+    --color-text-primary: rgb(0,0,0);
+    --color-text-secondary: rgb(255, 255, 255);
+    --color-border: rgba(255, 255, 255, 0.426);
+    --color-mbl-menu: rgba(255, 255, 255, 0.375);
+    --color-underline: rgba(170, 255, 0, 0.653);
+}
 .items{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+main{
+    bottom: 0;
+    flex: 1;
 }
