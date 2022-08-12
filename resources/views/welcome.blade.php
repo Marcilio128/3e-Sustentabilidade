@@ -19,12 +19,53 @@
         </div>
 </section>
 
+<h1 class="card-title">Conheça sobre o descarte correto</h1>
 <section class="sec-welcometwo">
     <div class="container">
-        <h1>Conheça sobre o descarte correto</h1>
-        <div>
-
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <img src="/assets/plastico-lixeira.png" alt="" class="cardP-img" srcset="">
+                    <h3>Plastico</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
         </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <img src="/assets/metal-lixeira.png" alt="" class="cardP-img" srcset="">
+                    <h3>Metal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <img src="/assets/papeis-lixeiras.png" alt="" class="cardP-img" srcset="">
+                    <h3>Papeis</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <img src="/assets/vidros-lixeiras.png" alt="" class="cardP-img" srcset="">
+                    <h3>Vidros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 @endsection
