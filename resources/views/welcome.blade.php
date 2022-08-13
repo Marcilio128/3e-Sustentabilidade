@@ -13,12 +13,12 @@
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="animation">
-                <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
-            </div>
+            <lottie-player class="animation" src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
         </div>
-</section>
-
+    </section>
+    <div class="sec-quiz">
+        <a href="#" class="btn-quiz">Faça o nosso teste</a>
+    </div>
 <h1 class="card-title">Conheça sobre o descarte correto</h1>
 <section class="sec-welcometwo">
     <div class="container">
@@ -27,8 +27,8 @@
                 <div class="content">
                     <img src="/assets/plastico-lixeira.png" alt="" class="cardP-img" srcset="">
                     <h3>Plastico</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-                    <a href="#">Read More</a>
+                    <p>Para materiais de plástico, a lixeira vermelha é a correta para o descarte. Nela você poderá descartar
+                         materiais feitos de plástico</p>
                 </div>
             </div>
         </div>
@@ -38,8 +38,8 @@
                 <div class="content">
                     <img src="/assets/metal-lixeira.png" alt="" class="cardP-img" srcset="">
                     <h3>Metal</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-                    <a href="#">Read More</a>
+                    <p>Para materiais de metais, a lixeira amarela é a correta para o descarte. Nela você poderá descartar
+                       materiais feitos de metais</p>
                 </div>
             </div>
         </div>
@@ -49,8 +49,8 @@
                 <div class="content">
                     <img src="/assets/papeis-lixeiras.png" alt="" class="cardP-img" srcset="">
                     <h3>Papeis</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-                    <a href="#">Read More</a>
+                    <p>Para materiais de papel, a lixeira azul é a correta para o descarte. Nela você poderá descartar
+                         materiais feitos de papel</p>
                 </div>
             </div>
         </div>
@@ -60,8 +60,8 @@
                 <div class="content">
                     <img src="/assets/vidros-lixeiras.png" alt="" class="cardP-img" srcset="">
                     <h3>Vidros</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-                    <a href="#">Read More</a>
+                    <p>Para materiais de vidros, a lixeira azul é a correta para o descarte. Nela você poderá descartar
+                         materiais feitos de vidros</p>
                 </div>
             </div>
         </div>
