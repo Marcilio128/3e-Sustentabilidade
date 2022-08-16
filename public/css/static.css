@@ -65,6 +65,50 @@ li a{
 }
 /*MENU*/
 
+/*RODAPE*/
+.rodape{
+    background-color: var(--color-primary);
+    padding: 1rem;
+    bottom: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.icon{
+    text-align: center;
+    gap: 5rem;
+    max-width: 100%; 
+}
+
+.icon > a{
+    color: var(--rodape-color-text);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.icon > p{
+    font-weight: 300;
+    font-size: 1.25rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+  
+  }
+.linedin{
+    margin-right: 20vw;
+}
+
+.wpp{
+    margin-left: 20vw;
+}
+
+.titlerodape{
+    position: absolute;
+}
+
 /*Menu-Mobile*/
 @media only screen and (max-width: 700px){
     .items{

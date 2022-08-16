@@ -36,6 +36,19 @@
         
         <main>@yield('content')</main>
 
+        <footer class="rodape" id="rodapeTribute"> 
+
+<div class="icon">
+<img class="logo-3e" src="/assets/logo3e.png" alt=""> </img>
+        <p style="color: white;">&copy; 3E Soluções</p>
+
+        <a href="#"><img src="/assets/linkedin.png" class="linedin" alt=""></a>
+        <a href="#"><img src="/assets/facebook.png" class="face" alt=""></a>
+        <a href="#"><img src="/assets/whatsapp.png" class="wpp" alt=""></a>
+
+    </div>
+</footer>
+
     </body>
     <script src="./js/scriptStatic.js"></script>
 </html>

@@ -166,7 +166,7 @@ body .container .card .box .content p {
 
 .sec-welcomethree .content{
   position: relative;
-  margin: -1rem 0px;
+  margin: -1.1rem 0px;
   padding: 5rem 0px;
   background-color: var(--color-primary);
 }
@@ -177,25 +177,71 @@ body .container .card .box .content p {
   text-align: center;
   margin: -5rem 0 1rem 0;
 }
-.prj1{
+
+.Ecoenel{
   display: flex;
   justify-content: space-between;
 }
 
-.text-prjt1{
+.text-Ecoenel{
   color: white;
-  padding: 3rem 1rem 0.8rem 4rem;
+  padding: 3rem 5rem 0.8rem 5rem;
   text-align: justify;
-
 }
-.slide1{
+
+.Ecoenel-img{
   margin: 0 5rem;
   border-radius: 5rem 0 5rem 0;
 }
 
-.slide1{
+.Ecoenel-img{
   width: 35rem;
 }
+
+.prj2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-Ecocelpa{
+  color: white;
+  padding: 5rem 5rem 0rem 4rem;
+  text-align: justify;
+}
+
+
+
+
+.Ecocelpa{
+  margin: 5rem 0 0 5rem;
+  border-radius: 0 5rem 0 5rem;
+}
+
+.Ecocelpa{
+  width: 35rem;
+}
+
+
+
+.RecicleMais{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-RecicleMais{
+  color: white;
+  padding: 5rem 1rem 0.8rem 5rem;
+  text-align: justify;
+  width: 80%;
+
+}
+
+.RecicleMais-img{
+  margin: 5rem 5rem;
+  border-radius: 5rem 0 5rem 0;
+  width: 60rem;
+}
+
 /*Responsividade Welcome*/
 @media only screen and (max-width: 1250px){
   body .sec-welcometwo{
@@ -209,6 +255,55 @@ body .container .card .box .content p {
       width: 80%;
     }
 }
+
+@media only screen and (max-width: 1150px){
+  .text-Ecoenel{
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .Ecoenel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Ecoenel-img{
+    width: 50%;
+  }
+}
+
+.text-Ecocelpa{
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.prj2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.Ecocelpa{
+  margin: 0 auto;
+  align-items: center;
+  width: 50%;
+}
+
+.text-RecicleMais{
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.RecicleMais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.RecicleMais-img{
+  width: 50%;
+}
+
 
 @media only screen and (max-width: 1050px){
   .sec-welcomeOne .container{
@@ -246,8 +341,34 @@ body .container .card .box .content p {
   .animation{
     margin-right: 1rem;   
   }
+  .title-welcomethree{
+    display: none;
+  }
+  .sec-welcomethree .content:before{
+    content: ' Conheça Sobre nossos projetos';
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: -5rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+
+  }
 }
 
+@media only screen and (max-width: 600px){ 
+
+  .Ecoenel-img{
+    width: 80%;
+  }
+  
+  .Ecocelpa{
+    width: 80%;
+  }
+  .RecicleMais-img{
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 550px){ 
   .text-welcome{
     max-width: 100%;

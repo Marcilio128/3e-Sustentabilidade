@@ -78,19 +78,41 @@
         </div>
         <h1 class="title-welcomethree">Conheça Sobre nossos projetos</h1>
             <div class="content">    
-                <div class="prj1">
-                    <div class="text-prjt1">
+                
+                <div class="Ecoenel">
+                    <div class="text-Ecoenel">
+                        <h2>Ecoenel</h2>
+                        <p>Reconhecimento nacional e internacional, o projeto Ecoenel é um programa da Enel Ceará, que virou referência em ações 
+                        de sustentabilidade. Lançado em 2007, o projeto visa promover a troca de resíduos recicláveis por bônus na conta de luz
+                        nos estados do Ceará, Goiás e Rio de Janeiro. Formando uma rede de parcerias entre cliente, empresa e reciclador, 
+                        procura  incentivar a população a adotar a separação de resíduos recicláveis em suas residências, proporcionando, 
+                        em contrapartida, uma alternativa para contribuir na redução da conta de energia.</p>
+                    </div>
+                <img class="Ecoenel-img" src="/assets/slide1.jpg" alt="">
+            </div>
 
-                    <h2>Ecoenel</h2>
-                    <p>Reconhecimento nacional e internacional, o projeto Ecoenel é um programa da Enel Ceará, que virou referência em ações 
-                    de sustentabilidade. Lançado em 2007, o projeto visa promover a troca de resíduos recicláveis por bônus na conta de luz
-                    nos estados do Ceará, Goiás e Rio de Janeiro. Formando uma rede de parcerias entre cliente, empresa e reciclador, 
-                    procura  incentivar a população a adotar a separação de resíduos recicláveis em suas residências, proporcionando, 
-                    em contrapartida, uma alternativa para contribuir na redução da conta de energia.</p>
-                </div>
-                <img class="slide1" src="/assets/slide1.jpg" alt="">
+            <div class="prj2">
+                <img class="Ecocelpa" src="/assets/Ecocelpa.jpg" alt="">
+                    <div class="text-Ecocelpa">
+                        <h2>Ecocelpa</h2>
+                        <p>Com o intuito de minimizar os impactos que a produção desenfreada de resíduos acarreta ao meio ambiente, algumas empresas e instituições, 
+                            com o apoio da sociedade, buscam conscientizar a população sobre a destinação correta desses materiais. É o caso da Celpa, 
+                            que em março de 2015, implantou na Região Metropolitana de Belém o projeto Ecocelpa, que consiste em disponibilizar postos de coletas de 
+                            resíduos recicláveis e um dos benefícios da ação é possibilitar a troca de material reciclado por descontos na conta de energia, 
+                            incentivando, desta maneira, a prática da coleta seletiva por parte de seus clientes,  sejam pessoas físicas ou 
+                            empresas que tem como foco a conscientização ambiental por meio da destinação adequada dos resíduos.</p>
+                    </div>
+            </div>
 
-                </div>
+            <div class="RecicleMais">
+                <div class="text-RecicleMais">
+                    <h2>Recicle Mais, Pague Menos</h2>
+                    <p>Em execução desde 2012 o Projeto Recicle Mais, Pague Menos é uma iniciativa da Eletropaulo que tem como objetivo a conscientização da mudança de
+                        hábito da população em relação ao descarte correto dos materiais recicláveis, além da troca de resíduos recicláveis por desconto na conta
+                         de energia elétrica.</p>
+                    </div>
+                    <img class="RecicleMais-img" src="/assets/RecicleMais.jpg" alt="">
+            </div>
         </div>
 </section>
 @endsection
