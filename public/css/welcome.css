@@ -270,7 +270,6 @@ body .container .card .box .content p {
   .Ecoenel-img{
     width: 50%;
   }
-}
 
 .text-Ecocelpa{
   text-align: center;
@@ -303,7 +302,7 @@ body .container .card .box .content p {
 .RecicleMais-img{
   width: 50%;
 }
-
+}
 
 @media only screen and (max-width: 1050px){
   .sec-welcomeOne .container{
