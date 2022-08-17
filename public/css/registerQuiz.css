@@ -26,7 +26,7 @@
 
 @keyframes move2 {
 	from {
-        transform: translate(100px, 100px);
+        transform: translate(90px, 50px);
 
 	}
 	to {
@@ -36,7 +36,7 @@
 
 @keyframes move {
 	from {
-		transform: translate(10px, 150px);
+		transform: translate(10px, 100px);
 	}
 	to {
 		transform: translate(0);
