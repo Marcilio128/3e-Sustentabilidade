@@ -36,8 +36,10 @@
         
         <main>@yield('content')</main>
 
+    
         <footer class="rodape" id="rodapeTribute"> 
-
+        <div id="linha-horizontal">
+</div>
 <div class="icon">
 <img class="logo-3e" src="/assets/logo3e.png" alt=""> </img>
         <p style="color: white;">&copy; 3E Soluções</p>

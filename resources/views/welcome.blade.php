@@ -18,7 +18,7 @@
 </section>
 
 <div class="sec-quiz">
-    <a href="#" class="btn-quiz">Faça o nosso teste</a>
+    <a href="/Quiz-3E" class="btn-quiz">Faça o nosso teste</a>
 </div>
 
 <h1 class="card-title">Conheça sobre o descarte correto</h1>
@@ -88,8 +88,10 @@
                         procura  incentivar a população a adotar a separação de resíduos recicláveis em suas residências, proporcionando, 
                         em contrapartida, uma alternativa para contribuir na redução da conta de energia.</p>
                     </div>
-                <img class="Ecoenel-img" src="/assets/slide1.jpg" alt="">
-            </div>
+                    <img class="Ecoenel-img" src="/assets/Ecoenel01.jpg" alt="">
+                </div>
+
+            
 
             <div class="prj2">
                 <img class="Ecocelpa" src="/assets/Ecocelpa.jpg" alt="">
