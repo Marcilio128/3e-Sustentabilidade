@@ -18,8 +18,14 @@
     <section class="sec-quiz">
         <div class="container">
             <div class="card-register">
-                <input type="text" />
-                <button>Começar</button>
+                <img src="/assets/3e-logo-color.png" alt="">
+                <div class="box">
+	<form>
+	<div class="input-container">
+		<input type="text" required=""/>
+		<label>Full Name</label>		
+	</div>
+               <button>Começar</button>
             </div>
         </div>
     </section>
