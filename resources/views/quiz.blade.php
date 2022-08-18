@@ -15,20 +15,35 @@
 <div class="bola01"></div>
 <div class="bola02"></div>
 
-    <section class="sec-quiz">
-        <div class="container">
-            <div class="card-register">
-                <img src="/assets/3e-logo-color.png" alt="">
+<div class="bola03"></div>
+<div class="bola04"></div>
+
+<section class="sec-quiz">
+    <div class="container">
+
+    <div class="bolão"></div>
+    <div class="bolão02"></div>
+
+    <div class="bolão03"></div>
+    <div class="bolão04"></div>
+
+        <div class="card-register">
+            <img src="/assets/3e-logo-color.png" alt="">
                 <div class="box">
-	<form>
+                    <form>
 	<div class="input-container">
-		<input type="text" required=""/>
-		<label>Full Name</label>		
+        <input type="text" required=""/>
+		<label>Digite seu nome</label>		
 	</div>
-               <button>Começar</button>
+               <button class="btn">Começar</button>
             </div>
         </div>
     </section>
+    
+    <div class="bola05"></div>
+    <div class="bola06"></div>
 
+    <div class="bola07"></div>
+    <div class="bola08"></div>
 </body>
 </html>
