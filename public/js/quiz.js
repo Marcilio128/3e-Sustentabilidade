@@ -1,11 +1,13 @@
-const btnName = document.querySelector("#input");
+const btn = document.querySelector("#name")
+btn.addEventListener("keyup", function(event){
 
+    const senha = document.querySelector("#name")
 
-    if(btnName == null){
+    if (senha.value !== null) {
+        //habilita o botão
         document.getElementById("btnSubmit").disabled = false; 
-    }
-    else{
-        console.log("ERROR")
-        document.getElementById("btnSubmit").disabled = true; 
-
-    }
+      } 
+      else {
+        //desabilita o botão se o conteúdo do input ficar em branco
+        document.getElementById("btnSubmit").disabled = true;
+      }});

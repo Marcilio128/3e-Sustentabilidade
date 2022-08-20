@@ -20,30 +20,27 @@
 <div class="bola03"></div>
 <div class="bola04"></div>
 
-<div class="bola09"></div>
-<div class="bola10"></div>
 
-<div class="bola11"></div>
-<div class="bola12"></div>
 <section class="sec-quiz">
     <div class="container">
-
-
-
-
+        
+        <div class="bolão"></div>
+        <div class="bolão02"></div>
+        
         <div class="card-register">
 
             <img src="/assets/3e-logo-color.png" alt="">
                 <div class="box">
                     <form>
 	                    <div class="input-container">
-                             <input type="text" id="input" required=""/>
+                             <input type="text" id="name" required="" />
 		                     <label>Digite seu nome</label>		
 	                        </div>
-                            <a  id="btnSubmit" class="btn" onclick="location.href='/Question'" >Começar</button></a>
+                            <button type="submit" id="btnSubmit" onclick="location.href='/Question'"; disabled>Entrar</button>
                 </div>
         </div>
-
+    <div class="bolão03"></div>
+    <div class="bolão04"></div>
 
     </section>
     
