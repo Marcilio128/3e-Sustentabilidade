@@ -11,3 +11,9 @@ btn.addEventListener("keyup", function(event){
         //desabilita o botão se o conteúdo do input ficar em branco
         document.getElementById("btnSubmit").disabled = true;
       }});
+
+
+function SendTo(event){
+    event.preventDefault();
+    window.location.pathname = "/Question"
+}

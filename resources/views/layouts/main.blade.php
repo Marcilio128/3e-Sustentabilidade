@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/static.css">
@@ -53,4 +53,8 @@
 
     </body>
     <script src="./js/scriptStatic.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

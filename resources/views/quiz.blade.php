@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/registerQuiz.css">
 
 
-    <title>Document</title>
+    <title>Registro</title>
 </head>
 <body>
 <div class="bola01"></div>
@@ -35,8 +35,9 @@
 	                    <div class="input-container">
                              <input type="text" id="name" required="" />
 		                     <label>Digite seu nome</label>		
-	                        </div>
-                            <button type="submit" id="btnSubmit" onclick="location.href='/Question'"; disabled>Entrar</button>
+	                    </div>
+                        <button class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>Começar</button>
+                    </form>
                 </div>
         </div>
     <div class="bolão03"></div>
