@@ -17,3 +17,8 @@ function SendTo(event){
     event.preventDefault();
     window.location.pathname = "/Question"
 }
+
+function ForTo(event){
+  event.preventDefault();
+  window.location.pathname = "/Score"
+}

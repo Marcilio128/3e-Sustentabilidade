@@ -13,3 +13,7 @@ Route::get('/Quiz-3E', function () {
 Route::get('/Question', function () {
     return view('question');
 });
+
+Route::get('/Score', function () {
+    return view('score');
+});

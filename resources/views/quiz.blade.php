@@ -37,6 +37,7 @@
 		                     <label>Digite seu nome</label>		
 	                    </div>
                         <button class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>Começar</button>
+                        <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button>
                     </form>
                 </div>
         </div>
