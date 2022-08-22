@@ -16,6 +16,7 @@
             <div id="game">
                 <div id="hud" class="itens">
                     <div class="hud-item">
+                        <img src="/assets/3e-logo-color.png" alt="" srcset="">
                         <p id="progressText" class="hub-prefix">
                             Question
                         </p>
@@ -24,17 +25,24 @@
                         </div>
                     </div>
                     <div class="hub-item">
-                        <p class="hub-prefix">
+                    <div id="question">Pergunta </div>
+
+                    </div>
+                </div>
+                <div>
+                    </div>
+                    
+                    <div class = "vertical"></div>
+                    
+                    
+                    <div id="score">
+                        <p>
                             Score
                         </p>
                         <h1 class="hub-main-text" id="score">
                             0/10
                         </h1>
-                    </div>
-                    <div id="question">Responda: </div>
-                </div>
-                <div>
-                    <div class="choice-container">
+                        <div class="choice-container">
                         <button class="choice-text" data-number="1">Escolha </button>
                         
                     </div>
@@ -50,10 +58,11 @@
                         <button class="choice-text" data-number="4">Escolha 4</button>
                     </div>
                 </div>
-               
             </div>
+
         </div>
     </section>
+
 </body>
 <script src="./js/question.js"></script>
 </html>
