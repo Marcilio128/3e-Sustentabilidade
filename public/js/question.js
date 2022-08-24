@@ -72,15 +72,44 @@ const q4 = {
 const q5 = {
     numQuestao   : 5,
     pergunta     : "Quais são os benefícios da sustentabilidade?",
-    alternativaA : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
+    alternativaA : "Diminuir a obesidade",
     alternativaB : "Evitar que o homem desmate árvores",
-    alternativaC : "Diminuir a obesidade",
+    alternativaC : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
     alternativaD : "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
     correta      : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
 }
 
+const q6 = {
+    numQuestao   : 6,
+    pergunta     : "O que são produtos biodegradáveis?",
+    alternativaA : "Objetos feitos com material reciclável",
+    alternativaB : "Produtos recicláveis ",
+    alternativaC : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    alternativaD : "Categoria de produtos que são renováveis, ou seja, que não acaba",
+    correta      : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+}
+
+const q7 = {
+    numQuestao   : 7,
+    pergunta     : "Qual das opções abaixo é um exemplo de reciclagem?",
+    alternativaA : "Acúmulo de matéria prima",
+    alternativaB : "Coleta Seletiva  ",
+    alternativaC : "Replantio de árvore recém cortada",
+    alternativaD : "Incineração",
+    correta      : "Coleta Seletiva ",
+}
+
+const q8 = {
+    numQuestao   : 8,
+    pergunta     : "O que é coleta seletiva?",
+    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC : "Reaproveitamento de Recicláveis",
+    alternativaD : "Coleta de lixos recicláveis",
+    correta      : "Processo de separação e coleta de resíduos para reciclagem",
+}
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')

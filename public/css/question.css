@@ -13,6 +13,7 @@ body{
     right: -40%;
     transform: rotate(300deg); 
 }
+
 .questao{
     padding: 2rem;
 }
@@ -41,6 +42,7 @@ body{
     height: 35rem;
     overflow-y: hidden;
 }
+
 .Logo{
     width: 10rem;
 }
@@ -101,5 +103,60 @@ li{
         top: -20%;
         left: -35%;
         transform: rotate(150deg);
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .wave{
+        position: absolute;
+        top: -10%;
+        left: -35%;
+        transform: rotate(150deg);
+    }
+.wave2{
+    position: absolute;
+    bottom: -10%;
+    right: -40%;
+    transform: rotate(300deg); 
+}
+
+.questoes{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+    height: 40rem;
+}
+.vertical{
+    display: none;
+}
+.choices{
+    display: table;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+}
+
+@media only screen and (max-width: 600px){
+    .wave2{
+        position: absolute;
+        bottom: -35%;
+        right: -40%;
+        transform: rotate(300deg); 
+    }
+    .respostas{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .respostas{
+        width: 200px;
     }
 }
