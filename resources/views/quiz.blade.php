@@ -28,12 +28,14 @@
         <div class="bolão02"></div>
         
         <div class="card-register">
-
+            
             <img src="/assets/3e-logo-color.png" alt="">
+            <h2 class="text-register">Está pronto para começar?</h2>
                 <div class="box">
                     <form>
 	                    <div class="input-container">
-                             <input type="text" id="name" required="" />
+                            <input  type="text" id="name" required="" />
+                            
 		                     <label>Digite seu nome</label>		
 	                    </div>
                         <button class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>Começar</button>

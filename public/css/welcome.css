@@ -354,6 +354,8 @@
     .sec-welcomethree .content:before{
       content: ' Conheça Sobre nossos projetos';
       color: white;
+      align-items: center;
+      text-align: center;
       font-size: 2rem;
       font-weight: 600;
       margin: -5rem 0 5rem 0;

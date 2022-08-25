@@ -50,6 +50,7 @@ li a:hover:before {
 }
 
 .items{
+    margin: 0 1rem;
     display: flex;
     justify-content: space-between;
     gap: 3rem;

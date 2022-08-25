@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Quiz-3E', function () {
+Route::get('/Quiz3E', function () {
     return view('quiz');
 });
 
@@ -16,4 +16,8 @@ Route::get('/Question', function () {
 
 Route::get('/Score', function () {
     return view('score');
+});
+
+Route::get('/Sobre', function () {
+    return view('about');
 });
