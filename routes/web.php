@@ -21,3 +21,15 @@ Route::get('/Score', function () {
 Route::get('/Sobre', function () {
     return view('about');
 });
+
+Route::get('/Lose', function () {
+    return view('lose');
+});
+
+Route::get('/TryAgain', function () {
+    return view('UcanMore');
+});
+
+Route::get('/Win', function () {
+    return view('win');
+});

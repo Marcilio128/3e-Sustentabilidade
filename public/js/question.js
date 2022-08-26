@@ -179,7 +179,9 @@ function verificarSeAcertou(nQuestao, resposta) {
     if(respostaEscolhida == certa) {
         pontos += 10
     } 
-    else {}
+    else {
+        alert("A reposta correta é: " + certa)
+    }
 
     // atualizar placar
     placar = pontos
@@ -227,7 +229,26 @@ function fimDoJogo() {
     articleQuestoes.style.display = 'none'
 
     setTimeout(function() {
-        pontos = 0 // zerar placar
-        location.reload();
-    }, 2000)
+
+        if(pontos < 50){
+        window.location.href = "/TryAgain"
+            
+
+
+        }
+        else if(pontos >= 50 < 90){
+            window.location.href = "/TryAgain"
+
+        }
+        else if(pontos >= 90){
+            window.location.href = "/Win"
+
+        }
+        else{
+            window.location.href = "/"
+
+
+        }
+    }, 1000)
 }
+console.log(pontos)
