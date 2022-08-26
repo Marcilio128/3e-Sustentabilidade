@@ -163,60 +163,46 @@ li{
 
 
 /*criação do modal*/
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal-content{
     width: 100vw;
     height: 100vh;
   
-    background-color: var(--color-background-modal);
+    background-color: red;
       
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
     z-index: 2000;
   
     display: none;
-    justify-content: center;
-    align-items: center;
+
   
   }
   
   .modal-content.show{
     display: flex;
+    
   }
   
-  textarea input{
-    resize: none;
-  }
-  
-  #selectedFile, .button-modal{
-    cursor: pointer;
-  
-    margin-top: 1rem;
-    padding: 1rem;
-  
-    border: 1px solid black;
-    border-radius: 4rem;
-  
-    background-color: transparent;
-  }
-  
-  .modal h3{
-    margin-bottom: 0rem;
-  }
-  
-  .modal-imglogo{
-    width: 6.25rem;
-  }
   
   .modal{
     text-align: center;
-  
+
     background-color: var(--color-modal);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.449);
-  
-    min-width: 18.75rem;
-    padding: 10rem;
+    
+
+    padding: 15rem;
     border-radius: 1rem;
+    
+
+    top: 5%;
+    position: absolute;
   }
   
   .modal-form{
@@ -224,4 +210,12 @@ li{
     flex-direction: column;
     align-items: center;
   }
+
+  .modal{
+    visibility: hidden;
+
+  }
   
+  .correcao{
+    visibility: visible;
+  }

@@ -178,11 +178,26 @@ function verificarSeAcertou(nQuestao, resposta) {
 
     if(respostaEscolhida == certa) {
         pontos += 10
-    } 
-    else {
-        alert("A reposta correta é: " + certa)
-    }
 
+    } 
+    else if (respostaEscolhida != certa) {
+        const elemento = document.getElementById("show");
+        elemento.classList.add("correcao");
+
+        show.innerText = "A resposta correta é:  " + certa 
+    }
+    else{
+
+function myFunction() {
+    elemento = setTimeout(alertFunc, 3000);
+}
+
+function alertFunc() {
+    elemento.classList.remove("correcao");
+
+}
+
+    }
     // atualizar placar
     placar = pontos
     instrucoes.textContent = "Pontos " + placar
@@ -251,4 +266,7 @@ function fimDoJogo() {
         }
     }, 1000)
 }
+
+
+
 console.log(pontos)
