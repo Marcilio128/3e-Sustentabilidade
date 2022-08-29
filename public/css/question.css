@@ -173,33 +173,29 @@ li{
     width: 100vw;
     height: 100vh;
   
-    background-color: red;
       
     position: fixed;
     top: 0;
     z-index: 2000;
   
-    display: none;
 
   
   }
   
   .modal-content.show{
     display: flex;
-    
   }
   
   
   .modal{
     text-align: center;
-
     background-color: var(--color-modal);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.449);
+    box-shadow: 500px 500px 1000px 1000px rgba(0, 0, 0, 0.449);
     
 
-    padding: 15rem;
+    padding: 10rem;
     border-radius: 1rem;
-    
+    margin: 0 1rem;
 
     top: 5%;
     position: absolute;
@@ -215,7 +211,33 @@ li{
     visibility: hidden;
 
   }
-  
+
   .correcao{
     visibility: visible;
+  }
+  .btnModal{
+
+	width: 200px;
+	padding: 8px 5px;
+	margin: 0.5rem;
+	
+	background: var(--color-primary);
+	color: white;
+	border: 0;
+	
+	border-radius: 5px;
+	
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+	cursor: pointer;
+  }
+  
+  .btnModal:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+	background: var(--color-secondary);
+	color: rgb(0, 0, 0);
+  }
+
+  #show{
+    color: var(--color-primary);
   }

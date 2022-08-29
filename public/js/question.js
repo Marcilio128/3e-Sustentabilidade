@@ -2,6 +2,7 @@ let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
+const fechaModal = document.getElementById("outModal")
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -26,6 +27,7 @@ const q0 = {
     alternativaC : "Alternativa C",
     alternativaD : "Alternativa D",
     correta      : "0",
+    motivo       : "Porque"
 }
 
 const q1 = {
@@ -36,6 +38,7 @@ const q1 = {
     alternativaC : "Verde & Marrom",
     alternativaD : "Branca e Laranja",
     correta      : "Vermelha & Amarela",
+    motivo       : "Lixeiras vermelhas e amarelas ambas respectivamentes estão ligadas ao descarte de plastico e metal"
 
 }
 
@@ -175,28 +178,28 @@ function verificarSeAcertou(nQuestao, resposta) {
     let respostaEscolhida = resposta.textContent
 
     let certa = questoes[numeroDaQuestao].correta
+    let porque = questoes[numeroDaQuestao].motivo
+
 
     if(respostaEscolhida == certa) {
         pontos += 10
 
     } 
-    else if (respostaEscolhida != certa) {
-        const elemento = document.getElementById("show");
+    else{
+        const elemento = document.getElementById("modal");
+
         elemento.classList.add("correcao");
 
-        show.innerText = "A resposta correta é:  " + certa 
-    }
-    else{
+        elemento.addEventListener('click', (e) => {
+        (e.target.id == outModal || e.target.className == 'btnModal');{
+                elemento.classList.remove("correcao");
 
-function myFunction() {
-    elemento = setTimeout(alertFunc, 3000);
-}
 
-function alertFunc() {
-    elemento.classList.remove("correcao");
-
-}
-
+                localStorage.outModal = elemento;
+            }
+        });
+        show.innerText = "A resposta correta é:  " + certa;
+        explicação.innerText = porque;
     }
     // atualizar placar
     placar = pontos
@@ -253,6 +256,7 @@ function fimDoJogo() {
         }
         else if(pontos >= 50 < 90){
             window.location.href = "/TryAgain"
+            text.innerText = pontos;
 
         }
         else if(pontos >= 90){
