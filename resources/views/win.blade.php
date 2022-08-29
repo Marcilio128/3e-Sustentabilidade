@@ -10,7 +10,7 @@
             
             <h3 id="text">Sua pontuação está entre 80 e 100 pontos, parabéns você tem o potencial para ajudar a somar e melhorar o mundo em que vivemos!!!
             <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button></h3>
-            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_EyJRUV.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
+            <lottie-player class="animateWin" src="https://assets2.lottiefiles.com/packages/lf20_EyJRUV.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
 
         
         
