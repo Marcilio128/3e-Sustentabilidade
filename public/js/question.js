@@ -195,10 +195,9 @@ function verificarSeAcertou(nQuestao, resposta) {
                 elemento.classList.remove("correcao");
 
 
-                localStorage.outModal = elemento;
             }
         });
-        show.innerText = "A resposta correta é:  " + certa;
+        show.innerText = "Você errou, a resposta correta é:  " + certa;
         explicação.innerText = porque;
     }
     // atualizar placar
