@@ -1,5 +1,3 @@
-
-
 .btnPoints{
 	width: 600px;
 	padding: 8px 5px;
@@ -7,8 +5,11 @@
 
 	display: flex;
 	justify-content: center;
-	text-decoration: none;
+  align-items: center;
 	text-align: center;
+	text-decoration: none;
+  margin: 0 auto;
+
 	color: rgb(255, 255, 255);
 	border: 0;
   background: var(--color-primary);
@@ -28,15 +29,15 @@
   }
 
 
-
-  .content{
+  .position{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0 0 0 5rem;
     
   }
   
-  .content .animate{
+  .position .animate{
 
     margin: 0 5rem 0 0;
     background-color: rgba(255, 255, 255, 0.527);
@@ -45,7 +46,7 @@
     height: 600px;
   }
 
-  .content h3{
+  .position h3{
     width: 50%;
     text-align: justify;
     font-weight: 500;
@@ -54,7 +55,7 @@
   }
 
   .imgLose{
-    width: 30vw;
+    width: 50vh;
     margin: 5rem 10rem;
   }
 
@@ -64,3 +65,42 @@
     width: 700px;
     height: 600px;
   }
+  .Circle{
+    width: 150px;
+    height: 150px;
+  }  
+circle{
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 10;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+circle:nth-child(1){
+  stroke-dashoffset: 0;
+  stroke: var(--color-primary);
+}
+circle:nth-child(2){
+  stroke-dashoffset: calc(440 - 308);
+  stroke: var(--color-secondary);
+}
+
+.box-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number h2{
+  margin: 0 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and{
+  .imgLose{
+    width: 20vh;
+    margin: 1rem 1rem;
+  }
+}

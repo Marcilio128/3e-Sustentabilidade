@@ -248,14 +248,14 @@ function fimDoJogo() {
     setTimeout(function() {
 
         if(pontos < 50){
-        window.location.href = "/TryAgain"
-            
+        window.location.href = "/Lose"
+        console.log(pontos)
+
 
 
         }
         else if(pontos >= 50 < 90){
             window.location.href = "/TryAgain"
-            text.innerText = pontos;
 
         }
         else if(pontos >= 90){
@@ -270,6 +270,8 @@ function fimDoJogo() {
     }, 1000)
 }
 
-
-
 console.log(pontos)
+
+function getPoints() {
+    console.log(pontos)
+}

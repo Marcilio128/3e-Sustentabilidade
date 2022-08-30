@@ -6,7 +6,7 @@
 
 <section class="sec-try">
     <div class="container">
-        <div class="content">
+        <div class="position">
             
             <h3 id="text">Sua pontuação está entre 80 e 100 pontos, parabéns você tem o potencial para ajudar a somar e melhorar o mundo em que vivemos!!!
             <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button></h3>

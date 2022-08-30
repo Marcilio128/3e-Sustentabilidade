@@ -26,10 +26,6 @@ a{
     font-weight: 400;
 }
 
-main{
-    bottom: 0;
-    flex: 1;
-}
 
 body::-webkit-scrollbar{
     width: 1px;
@@ -42,4 +38,16 @@ body::-webkit-scrollbar{
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--color-primary);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main{
+    bottom: 0;
+    flex: 1;
 }

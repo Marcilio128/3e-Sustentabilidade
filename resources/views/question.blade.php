@@ -28,10 +28,10 @@
             <h2 id='pergunta'></h2>
         </header>
         
-        <div class = "vertical"></div>
-
+        <div class="vertical"></div>
+    
         <div class='choices'>
-        <article class='points' id='instrucoes'>
+        <article class='points' id='instrucoes' name="points" >
         Pontos 0
     </article>
             <ol id='alternativas'>

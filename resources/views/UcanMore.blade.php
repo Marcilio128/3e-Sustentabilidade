@@ -8,7 +8,7 @@
 
 <section class="sec-try">
     <div class="container">
-        <div class="content">
+        <div class="position">
             
             <h3 id="text">Sua pontuação está entre 50 e 80 pontos, com mais conhecimento você tem potencial de mudar o mundo
             <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button></h3>
