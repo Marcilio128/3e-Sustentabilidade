@@ -202,7 +202,7 @@ function verificarSeAcertou(nQuestao, resposta) {
     }
     // atualizar placar
     placar = pontos
-    instrucoes.textContent = "Pontos " + placar
+    instrucoes.textContent = "Pontos" + placar
 
     // bloquear a escolha de opcoes
     bloquearAlternativas()

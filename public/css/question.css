@@ -3,13 +3,13 @@ body{
 }
 .wave{
     position: absolute;
-    top: -30%;
+    top: 130%;
     left: -35%;
     transform: rotate(150deg);
 }
 .wave2{
     position: absolute;
-    bottom: -20%;
+    bottom: -70%;
     right: -40%;
     transform: rotate(300deg); 
 }
@@ -97,69 +97,6 @@ li{
 
 }
 
-@media only screen and (max-width: 1900px){
-    .wave{
-        position: absolute;
-        top: -20%;
-        left: -35%;
-        transform: rotate(150deg);
-    }
-}
-
-@media only screen and (max-width: 950px){
-    .wave{
-        position: absolute;
-        top: -10%;
-        left: -35%;
-        transform: rotate(150deg);
-    }
-.wave2{
-    position: absolute;
-    bottom: -10%;
-    right: -40%;
-    transform: rotate(300deg); 
-}
-
-.questoes{
-    display: inline;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 0 2rem;
-    width: 100%;
-    height: 40rem;
-}
-.vertical{
-    display: none;
-}
-.choices{
-    display: table;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
-}
-}
-
-@media only screen and (max-width: 600px){
-    .wave2{
-        position: absolute;
-        bottom: -35%;
-        right: -40%;
-        transform: rotate(300deg); 
-    }
-    .respostas{
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 400px){
-
-    .respostas{
-        width: 200px;
-    }
-}
 
 
 /*criação do modal*/
@@ -167,19 +104,20 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2000;
+
 }
 
 .modal-content{
     width: 100vw;
     height: 100vh;
-  
-      
-    position: fixed;
+    
+    position: absolute;
     top: 0;
     z-index: 2000;
   
 
-  
+
   }
   
   .modal-content.show{
@@ -190,8 +128,7 @@ li{
   .modal{
     text-align: center;
     background-color: var(--color-modal);
-    box-shadow: 500px 500px 1000px 1000px rgba(0, 0, 0, 0.449);
-    
+    box-shadow: 500px 500px 1000px 1000px rgba(0, 0, 0, 0.616);
 
     padding: 10rem;
     border-radius: 1rem;
@@ -215,6 +152,7 @@ li{
   .correcao{
     visibility: visible;
   }
+  
   .btnModal{
 
 	width: 200px;
@@ -241,3 +179,82 @@ li{
   #show{
     color: var(--color-primary);
   }
+
+  @media only screen and (min-width: 1900px){
+    .wave{
+        position: absolute;
+        top: -20%;
+        left: -35%;
+        transform: rotate(150deg);
+        
+    }
+    .wave2{
+        position: absolute;
+        bottom: -70%;
+        right: -25%;
+        transform: rotate(300deg); 
+    }
+}
+@media only screen and (max-width: 1900px){
+    .wave{
+        position: absolute;
+        top: -15%;
+        left: -35%;
+        transform: rotate(150deg);
+    }
+    .wave2{
+        position: absolute;
+        bottom: -70%;
+        right: -25%;
+        transform: rotate(300deg); 
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .wave{
+        display: none;
+
+    }
+    .wave2{
+        display: none;
+    }
+
+.questoes{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.vertical{
+    display: none;
+}
+.choices{
+    display: table;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 600px){
+    .wave{
+        display: none;
+
+    }
+    .wave2{
+        display: none;
+
+    }
+    .respostas{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .wave{
+       display: none;
+    }
+    .wave2{
+        display: none;
+
+    }
+}
