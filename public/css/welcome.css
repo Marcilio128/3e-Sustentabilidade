@@ -317,7 +317,10 @@
       flex-direction: column;
       align-items: center;    
   }
-
+    .btn-quiz{
+      width: 100vw;
+      margin: 1rem;
+    }
     .text-welcome{
       max-width: 90%;
       text-align: center;

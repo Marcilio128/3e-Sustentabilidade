@@ -7,13 +7,13 @@ body{
     left: -35%;
     transform: rotate(150deg);
 }
-.wave2{
+.WaveBottom{
     position: absolute;
-    bottom: -70%;
-    right: -40%;
-    transform: rotate(300deg); 
+    right: -15%;
+    bottom: -30%;
+    transform: rotate(90deg); 
+    width: 25vw;
 }
-
 .questao{
     padding: 2rem;
 }
@@ -57,6 +57,7 @@ h2{
     color: var(--color-primary);
     font-size: 2rem;
     font-weight: 200;
+    margin: 0 auto;
 
 }
 .points{
@@ -188,12 +189,7 @@ li{
         transform: rotate(150deg);
         
     }
-    .wave2{
-        position: absolute;
-        bottom: -70%;
-        right: -25%;
-        transform: rotate(300deg); 
-    }
+
 }
 @media only screen and (max-width: 1900px){
     .wave{
@@ -202,12 +198,7 @@ li{
         left: -35%;
         transform: rotate(150deg);
     }
-    .wave2{
-        position: absolute;
-        bottom: -70%;
-        right: -25%;
-        transform: rotate(300deg); 
-    }
+
 }
 
 @media only screen and (max-width: 950px){
@@ -215,32 +206,35 @@ li{
         display: none;
 
     }
-    .wave2{
+    .WaveBottom{
         display: none;
     }
 
-.questoes{
-    display: inline;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    .questoes{
+        display: inline;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
 
-}
-.vertical{
-    display: none;
-}
-.choices{
-    display: table;
-    margin: 0 auto;
-}
+    }
+    .vertical{
+        display: none;
+    }
+    .choices{
+        display: table;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 600px){
+    body{
+        overflow-y: visible;
+    }
     .wave{
         display: none;
 
     }
-    .wave2{
+    .WaveBottom{
         display: none;
 
     }
@@ -253,8 +247,14 @@ li{
     .wave{
        display: none;
     }
-    .wave2{
+    .WaveBottom{
         display: none;
 
+    }
+}
+@media only screen and (max-width: 350px){
+    #alternativas{
+        padding: 0 0rem;
+    
     }
 }

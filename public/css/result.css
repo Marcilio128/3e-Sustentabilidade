@@ -1,5 +1,5 @@
 .btnPoints{
-	width: 600px;
+	width: 50vw;
 	padding: 8px 5px;
 	margin: 0.5rem;
 
@@ -114,5 +114,23 @@ circle:nth-child(2){
     width: 50vw;
 
   }
+}
 
+@media only screen and (max-width: 600px){
+  .position h3{
+    top: 0%;
+    width: 90%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+  .btnPoints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+  }
 }

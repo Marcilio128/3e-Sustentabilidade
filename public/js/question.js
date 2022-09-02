@@ -50,6 +50,8 @@ const q2 = {
     alternativaC : "Luz e vida",
     alternativaD : "Ecoenel",
     correta      : "Ecoenel",
+    motivo       : "Porque"
+
 }
 
 const q3 = {
@@ -60,6 +62,7 @@ const q3 = {
     alternativaC : "Ajudar a manter as pessoas nas suas casas da cidade",
     alternativaD : "Conservar o meio ambiente para ajudar a evitar única e exclusivamente o efeito estufa",
     correta      : "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
+    motivo       : "Porque"
 }
 
 const q4 = {
@@ -70,6 +73,7 @@ const q4 = {
     alternativaC : "Nuclear",
     alternativaD : "Carvão mineral",
     correta      : "Petróleo",
+    motivo       : "Porque"
 }
 
 const q5 = {
@@ -80,6 +84,7 @@ const q5 = {
     alternativaC : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
     alternativaD : "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
     correta      : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
+    motivo       : "Porque"
 }
 
 const q6 = {
@@ -90,16 +95,18 @@ const q6 = {
     alternativaC : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
     alternativaD : "Categoria de produtos que são renováveis, ou seja, que não acaba",
     correta      : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    motivo       : "Porque"
 }
 
 const q7 = {
     numQuestao   : 7,
     pergunta     : "Qual das opções abaixo é um exemplo de reciclagem?",
     alternativaA : "Acúmulo de matéria prima",
-    alternativaB : "Coleta Seletiva  ",
+    alternativaB : "Coleta Seletiva",
     alternativaC : "Replantio de árvore recém cortada",
     alternativaD : "Incineração",
-    correta      : "Coleta Seletiva ",
+    correta      : "Coleta Seletiva",
+    motivo       : "Porque"
 }
 
 const q8 = {
@@ -110,9 +117,30 @@ const q8 = {
     alternativaC : "Reaproveitamento de Recicláveis",
     alternativaD : "Coleta de lixos recicláveis",
     correta      : "Processo de separação e coleta de resíduos para reciclagem",
+    motivo       : "Porque"
+}
+const q9 = {
+    numQuestao   : 9,
+    pergunta     : "O que é coleta seletiva?",
+    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC : "Reaproveitamento de Recicláveis",
+    alternativaD : "Coleta de lixos recicláveis",
+    correta      : "Processo de separação e coleta de resíduos para reciclagem",
+    motivo       : "Porque"
+}
+const q10 = {
+    numQuestao   : 10,
+    pergunta     : "O que é coleta seletiva?",
+    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC : "Reaproveitamento de Recicláveis",
+    alternativaD : "Coleta de lixos recicláveis",
+    correta      : "Processo de separação e coleta de resíduos para reciclagem",
+    motivo       : "Porque"
 }
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
@@ -202,7 +230,7 @@ function verificarSeAcertou(nQuestao, resposta) {
     }
     // atualizar placar
     placar = pontos
-    instrucoes.textContent = "Pontos" + placar
+    instrucoes.textContent = "Pontos " + placar
 
     // bloquear a escolha de opcoes
     bloquearAlternativas()

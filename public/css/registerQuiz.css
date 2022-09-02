@@ -23,7 +23,7 @@ margin: auto;
 }
 
 .card-register > img{
-	width: 10rem;
+	width: 30vh;
 	margin: 1rem auto;
 }
 
@@ -442,7 +442,7 @@ button{
 @media only screen and (max-width: 650px){
 
 	body{
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 	.card-register{
 		position: relative;
@@ -477,4 +477,31 @@ button{
 	.bolão04{
 		display: none;
 	}
+}
+@media only screen and (max-width: 350px){
+.bola01{
+	display: none;
+}
+.bola02{
+	display: none;
+}
+.bola03{
+	display: none;
+}
+.bola04{
+	display: none;
+}
+.bola05{
+	display: none;
+}
+.bola06{
+	display: none;
+}
+.bola07{
+	display: none;
+}
+.bola08{
+	display: none;
+}
+
 }

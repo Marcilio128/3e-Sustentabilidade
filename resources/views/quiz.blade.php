@@ -34,7 +34,7 @@
                 <div class="box">
                     <form>
 	                    <div class="input-container">
-                            <input  type="text" id="name" required="" />
+                            <input autocomplete="off" type="text" id="name" required="" />
                             
 		                     <label>Digite seu nome</label>		
 	                    </div>
