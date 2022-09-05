@@ -1,8 +1,23 @@
+
+
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
-const fechaModal = document.getElementById("outModal")
+
+const openModalButton = document.querySelector(".open-modal");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fade = document.querySelector("#mostrar");
+
+const toggleModal = () => {
+    modal.classList.toggle("esconder");
+    fade.classList.toggle("esconder");
+  };
+  
+  [openModalButton, closeModalButton, fade].forEach((el) => {
+    el.addEventListener("click", () => toggleModal());
+  }); 
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -51,6 +66,7 @@ const q2 = {
     alternativaD : "Ecoenel",
     correta      : "Ecoenel",
     motivo       : "Porque"
+    
 
 }
 
@@ -214,18 +230,9 @@ function verificarSeAcertou(nQuestao, resposta) {
 
     } 
     else{
-        const elemento = document.getElementById("modal");
-
-        elemento.classList.add("correcao");
-
-        elemento.addEventListener('click', (e) => {
-        (e.target.id == outModal || e.target.className == 'btnModal');{
-                elemento.classList.remove("correcao");
-
-
-            }
-        });
-        show.innerText = "Você errou, a resposta correta é:  " + certa;
+        pontos += -10
+          
+        show.innerText = "Resposta correta:  " + certa;
         explicação.innerText = porque;
     }
     // atualizar placar
@@ -303,3 +310,4 @@ console.log(pontos)
 function getPoints() {
     console.log(pontos)
 }
+

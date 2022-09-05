@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .wave{
     position: absolute;
@@ -97,91 +97,101 @@ li{
 	padding: 20px 20px 20px 20px;
 
 }
+.ImgLogo{
+    width: 5rem;
+}
+  
 
-
-
-/*criação do modal*/
-.modal-container{
+  
+  #mostrar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+  }
+  
+  #modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    max-width: 90%;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    z-index: 10;
+  }
+  
+  #mostrar,
+  #modal {
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .modal-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    z-index: 2000;
+    border-bottom: 1px solid var(--color-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .modal-body p {
+    margin-bottom: 1rem;
+  }
+  
+  #modal.esconder,
+  #mostrar.esconder {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  #modal.esconder {
+    top: 0;
+  }
+
+  .btnModal{
+ 
+    width: 100px;
+    padding: 8px 5px;
+   
+    background: var(--color-primary);
+    color: white;
+    border: 0;
+   
+    border-radius: 5px;
+   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 00.5s;
+    cursor: pointer;
+  }
+   .btnModal:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: var(--color-secondary);
+    color: rgb(0, 0, 0);
+  }
+ 
+.Answer{
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#explicação{
+
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: var(--color-primary);
 
 }
 
-.modal-content{
-    width: 100vw;
-    height: 100vh;
-    
-    position: absolute;
-    top: 0;
-    z-index: 2000;
-  
-
-
-  }
-  
-  .modal-content.show{
-    display: flex;
-  }
-  
-  
-  .modal{
-    text-align: center;
-    background-color: var(--color-modal);
-    box-shadow: 500px 500px 1000px 1000px rgba(0, 0, 0, 0.616);
-
-    padding: 10rem;
-    border-radius: 1rem;
-    margin: 0 1rem;
-
-    top: 5%;
-    position: absolute;
-  }
-  
-  .modal-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal{
-    visibility: hidden;
-
-  }
-
-  .correcao{
-    visibility: visible;
-  }
-  
-  .btnModal{
-
-	width: 200px;
-	padding: 8px 5px;
-	margin: 0.5rem;
-	
-	background: var(--color-primary);
-	color: white;
-	border: 0;
-	
-	border-radius: 5px;
-	
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-
-	cursor: pointer;
-  }
-  
-  .btnModal:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-	background: var(--color-secondary);
-	color: rgb(0, 0, 0);
-  }
-
-  #show{
-    color: var(--color-primary);
-  }
-
-  @media only screen and (min-width: 1900px){
+@media only screen and (min-width: 1900px){
     .wave{
         position: absolute;
         top: -20%;
