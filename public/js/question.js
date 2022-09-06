@@ -1,23 +1,9 @@
-
-
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
 
-const openModalButton = document.querySelector(".open-modal");
-const closeModalButton = document.querySelector("#close-modal");
-const modal = document.querySelector("#modal");
-const fade = document.querySelector("#mostrar");
 
-const toggleModal = () => {
-    modal.classList.toggle("esconder");
-    fade.classList.toggle("esconder");
-  };
-  
-  [openModalButton, closeModalButton, fade].forEach((el) => {
-    el.addEventListener("click", () => toggleModal());
-  }); 
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -33,6 +19,8 @@ let d = document.querySelector('#d')
 let articleQuestoes = document.querySelector('.questoes')
 // ol li com as alternativas
 let alternativas = document.querySelector('#alternativas')
+
+
 
 const q0 = {
     numQuestao   : 0,
@@ -163,6 +151,8 @@ let total  = document.querySelector('#total')
 
 numero.textContent = q1.numQuestao
 
+
+
 let totalDeQuestoes = (questoes.length)-1
 console.log("Total de questões " + totalDeQuestoes)
 total.textContent = totalDeQuestoes
@@ -231,10 +221,11 @@ function verificarSeAcertou(nQuestao, resposta) {
     } 
     else{
         pontos += -10
-          
+       
         show.innerText = "Resposta correta:  " + certa;
         explicação.innerText = porque;
     }
+
     // atualizar placar
     placar = pontos
     instrucoes.textContent = "Pontos " + placar
@@ -283,6 +274,7 @@ function fimDoJogo() {
     setTimeout(function() {
 
         if(pontos < 50){
+
         window.location.href = "/Lose"
         console.log(pontos)
 
@@ -304,7 +296,22 @@ function fimDoJogo() {
         }
     }, 1000)
 }
+let openModalButton = document.querySelectorAll(".open-modal");
+let closeModalButton = document.querySelector("#close-modal");
+let modal = document.querySelector("#modal");
+let fade = document.querySelector("#mostrar");
+let toggleModal = () => {
+    modal.classList.toggle("esconder");
+    fade.classList.toggle("esconder");
+  };
 
+  for (var i = 0 ; i < openModalButton.length; i++) {
+    openModalButton[i].addEventListener("click", () => toggleModal());
+};
+
+  [closeModalButton, fade].forEach((el) => {
+    el.addEventListener("click", () => toggleModal());
+  }); 
 console.log(pontos)
 
 function getPoints() {

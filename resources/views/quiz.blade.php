@@ -36,9 +36,9 @@
 	                    <div class="input-container">
                             <input autocomplete="off" type="text" id="name" required="" />
                             
-		                     <label>Digite seu nome</label>		
-	                    </div>
-                        <button class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>Começar</button>
+		                     <label class="sem">Digite seu nome</label>	
+                            </div>
+                            <input value="Começar" type="submit" class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>	
                         <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button>
                     </form>
                 </div>
