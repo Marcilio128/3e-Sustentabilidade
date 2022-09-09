@@ -22,12 +22,13 @@
     font-size: 2rem;
 }
 #card{
-    width:30%;
+    width:30vw;
+    
 }
 .card {
     background:  rgba(255, 255, 255, 0.603);
     border-radius: 15px;
-
+        
 
     overflow: hidden;
     transition: 0.5s;
@@ -61,4 +62,7 @@
 }
 .background{
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
 }
