@@ -6,9 +6,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Quiz3E', function () {
-    return view('quiz');
-});
+/* Route::get( '/welcome', [\App\Http\Controllers\routeController::class, 'principal']);*/
+
+Route::get('/Quiz3E', [\App\Http\Controllers\routeController::class, 'principal']);
 
 Route::get('/Question', function () {
     return view('question');
@@ -32,4 +32,7 @@ Route::get('/TryAgain', function () {
 
 Route::get('/Win', function () {
     return view('win');
+});
+Route::fallback(function(){
+    return view('NotFound');
 });

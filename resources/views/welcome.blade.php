@@ -15,6 +15,8 @@
                 A 3e Soluções também vem realizando ações sustentáveis para deixar o nosso planeta 
                 melhor no presente, para se manter no futuro.</p>
         </div>
+
+
         <lottie-player class="animation" src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
     </div>
 </section>

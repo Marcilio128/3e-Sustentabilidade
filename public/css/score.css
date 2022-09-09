@@ -1,0 +1,64 @@
+.sec-tabela .container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+
+}
+.sec-tabela .container .table{
+    margin: 0 auto;
+
+}
+.start{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10vh;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+#card{
+    width:30%;
+}
+.card {
+    background:  rgba(255, 255, 255, 0.603);
+    border-radius: 15px;
+
+
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+.table{
+    box-shadow: solid 10rem rgb(255, 255, 255);
+
+	width:20.3rem;
+	border: 0px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    gap: 8rem;
+    width:20rem;
+
+    background-color: var(--color-primary);
+    color: white;
+}
+.imglogo{
+    width: 8vw;
+}
+.title-name{
+    margin: 0.5rem;
+}
+.title-Points{
+    margin: 0.5rem;
+}
+.background{
+    object-fit: cover;
+}

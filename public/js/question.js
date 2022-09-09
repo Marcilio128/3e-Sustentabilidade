@@ -3,7 +3,22 @@ let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
 
+let openModalButton = document.querySelectorAll(".open-modal");
+let closeModalButton = document.querySelector("#close-modal");
+let modal = document.querySelector("#modal");
+let fade = document.querySelector("#mostrar");
+let toggleModal = () => {
+    modal.classList.toggle("esconder");
+    fade.classList.toggle("esconder");
+  };
 
+    for (var i = 0 ; i < openModalButton.length; i++) {
+    openModalButton[i].addEventListener("click", () => toggleModal());
+};
+
+  [closeModalButton, fade].forEach((el) => {
+    el.addEventListener("click", () => toggleModal());
+  }); 
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -217,11 +232,13 @@ function verificarSeAcertou(nQuestao, resposta) {
 
     if(respostaEscolhida == certa) {
         pontos += 10
+        modal.classList.add('esconder');
 
     } 
     else{
         pontos += -10
        
+
         show.innerText = "Resposta correta:  " + certa;
         explicação.innerText = porque;
     }
@@ -296,25 +313,9 @@ function fimDoJogo() {
         }
     }, 1000)
 }
-let openModalButton = document.querySelectorAll(".open-modal");
-let closeModalButton = document.querySelector("#close-modal");
-let modal = document.querySelector("#modal");
-let fade = document.querySelector("#mostrar");
-let toggleModal = () => {
-    modal.classList.toggle("esconder");
-    fade.classList.toggle("esconder");
-  };
 
-  for (var i = 0 ; i < openModalButton.length; i++) {
-    openModalButton[i].addEventListener("click", () => toggleModal());
-};
-
-  [closeModalButton, fade].forEach((el) => {
-    el.addEventListener("click", () => toggleModal());
-  }); 
 console.log(pontos)
 
 function getPoints() {
     console.log(pontos)
 }
-

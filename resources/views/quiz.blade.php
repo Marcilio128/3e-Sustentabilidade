@@ -32,13 +32,13 @@
             <img src="/assets/3e-logo-color.png" alt="">
             <h2 class="text-register">Está pronto para começar?</h2>
                 <div class="box">
-                    <form>
+                    <form action="/Question">
 	                    <div class="input-container">
                             <input autocomplete="off" type="text" id="name" required="" />
                             
 		                     <label class="sem">Digite seu nome</label>	
                             </div>
-                            <input value="Começar" type="submit" class="btn" id="btnSubmit" onclick="SendTo(event)" disabled>	
+                            <input value="Começar" type="submit" class="btn" id="btnSubmit">	
                         <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button>
                     </form>
                 </div>
