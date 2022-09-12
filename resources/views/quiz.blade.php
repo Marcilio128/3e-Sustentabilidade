@@ -34,8 +34,8 @@
                 <img src="/assets/3e-logo-color.png" alt="">
                 <h2 class="text-register">Está pronto para começar?</h2>
                 <div class="box">
-                    <form action="/save" method="POST">
-                        @csrf
+                    <form action="/save" method="POST"> {{-- envio e encaminhamento para o banco de dados e formulário --}}
+                        @csrf {{-- permissão pro formulário funcionar --}}
                         <div class="input-container">
                             <input autocomplete="off" type="text" id="name" name="nome" required="" />
                             <label class="sem">Digite seu nome</label>

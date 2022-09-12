@@ -7,8 +7,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RankController::class, 'index']);
 Route::get('/Quiz3E', [RankController::class, 'quiz']);
-Route::post('/save', [RankController::class, 'usr']);
+Route::post('/save', [RankController::class, 'usr']); /* salvar nome do formulário */
 Route::get('/question', [RankController::class, 'question']);
+Route::get('/sv', [RankController::class, 'sv']); /* salvar pontos do quiz */
+Route::get('/TryAgain', [RankController::class, 'ops']);
 
 Route::get('/Score', function () {
     return view('score');
