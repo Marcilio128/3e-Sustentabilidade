@@ -15,7 +15,7 @@ btn.addEventListener("keyup", function(event){
 
 function SendTo(event){
     event.preventDefault();
-    window.location.pathname = "/Question"
+    window.location.pathname = "/question"
 }
 
 function ForTo(event){
