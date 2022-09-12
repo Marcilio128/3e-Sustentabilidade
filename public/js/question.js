@@ -3,6 +3,7 @@ let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
 let placar = 0 // placar
 
+let closemobilemodal = document.querySelector("#closeInMobile")
 let openModalButton = document.querySelectorAll(".open-modal");
 let closeModalButton = document.querySelector("#close-modal");
 let modal = document.querySelector("#modal");
@@ -16,9 +17,10 @@ let toggleModal = () => {
     openModalButton[i].addEventListener("click", () => toggleModal());
 };
 
-  [closeModalButton, fade].forEach((el) => {
+  [closeModalButton, fade, closemobilemodal].forEach((el) => {
     el.addEventListener("click", () => toggleModal());
   }); 
+
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
@@ -239,7 +241,7 @@ function verificarSeAcertou(nQuestao, resposta) {
         pontos += -10
 
 
-        show.innerText = "Você Errou:  " + certa;
+        show.innerText = "Você Errou:  " + certa + " é a resposta correta";
         explicação.innerText = porque;
     }
     // atualizar placar

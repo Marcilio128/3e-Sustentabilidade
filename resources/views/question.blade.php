@@ -59,7 +59,10 @@
       <div class="modal-body">
         <h3 class="RespostaCorreta" id="show"></h3>
         <p id="explicação"></p>
-      </div>
+        <div class="modal-line">
+
+          <button id="closeInMobile" class="btnMobile">Continuar</button>
+        </div>
     </div>
 </section>
   </body>
