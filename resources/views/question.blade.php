@@ -53,11 +53,11 @@
     <div id="modal" class="esconder">
       <div class="modal-header">
         <img src="./assets/3e-logo-color.png" class="ImgLogo" alt="" srcset="">
-        <h2>Alternativa Errada</h2>
+        <h2>Explicação</h2>
         <button id="close-modal" class="btnModal">Continuar</button>
       </div>
       <div class="modal-body">
-        <h3 class="Answer" id="show"></h3>
+        <h3 class="RespostaCorreta" id="show"></h3>
         <p id="explicação"></p>
       </div>
     </div>

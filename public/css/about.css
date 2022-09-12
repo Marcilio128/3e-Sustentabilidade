@@ -96,4 +96,17 @@
     .about-animation{
         visibility: hidden;
     }
+    .about-text{
+        padding: 1rem 0 0 0rem;
+    }
+    .about-sec h2{
+
+        margin-bottom: 0rem;
+    }
+    
+    .about-sec p{
+
+        margin-bottom: -30rem;
+    }
+
 }

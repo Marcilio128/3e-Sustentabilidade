@@ -232,15 +232,14 @@ function verificarSeAcertou(nQuestao, resposta) {
     
    if(respostaEscolhida == certa) {
         pontos += 10
-        document.getElementById("modalopen").style.display = "none";
-
+        show.innerText = "Você Acertou:  " + certa + " é a resposta correta";
+        explicação.innerText = porque;
     } 
     else{
         pontos += -10
-        document.getElementById("modalopen").style.display = "block";
 
 
-        show.innerText = "Resposta correta:  " + certa;
+        show.innerText = "Você Errou:  " + certa;
         explicação.innerText = porque;
     }
     // atualizar placar

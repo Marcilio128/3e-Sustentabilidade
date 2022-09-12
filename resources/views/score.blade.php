@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/score.css">
 
 </head>
-
 <body BACKGROUND="./assets/3emural.jpg" class="background">
     
 

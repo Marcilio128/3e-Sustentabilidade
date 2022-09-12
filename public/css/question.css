@@ -178,7 +178,12 @@ li{
     color: rgb(0, 0, 0);
   }
  
-.Answer{
+.RespostaCorreta{
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.RespostaErrada{
     color: var(--color-primary);
     font-size: 2rem;
     font-weight: 500;

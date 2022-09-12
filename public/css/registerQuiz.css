@@ -23,7 +23,7 @@ margin: auto;
 }
 
 .card-register > img{
-	width: 30vh;
+	width: 10rem;
 	margin: 1rem auto;
 }
 
@@ -427,6 +427,20 @@ button{
 		 } 
 	}
 }
+@media only screen and (max-width: 1000px){
+	.bolão{
+		display: none;
+	}
+	.bolão02{
+		display: none;
+	}
+	.bolão03{
+		display: none;
+	}
+	.bolão04{
+		display: none;
+	}
+}
 @media only screen and (max-width: 950px){
 	.card-register{
 		padding: 7rem;
@@ -465,18 +479,7 @@ button{
 		z-index: 1000;
 		background-color: transparent;
 	}
-	.bolão{
-		display: none;
-	}
-	.bolão02{
-		display: none;
-	}
-	.bolão03{
-		display: none;
-	}
-	.bolão04{
-		display: none;
-	}
+
 }
 @media only screen and (max-width: 350px){
 .bola01{
