@@ -1,18 +1,14 @@
 <?php
 
+use App\Http\Controllers\RankController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//navegação
 
-/* Route::get( '/welcome', [\App\Http\Controllers\routeController::class, 'principal']);*/
-
-Route::get('/Quiz3E', [\App\Http\Controllers\routeController::class, 'principal']);
-
-Route::get('/Question', function () {
-    return view('question');
-});
+Route::get('/', [RankController::class, 'index']);
+Route::get('/Quiz3E', [RankController::class, 'quiz']);
+Route::post('/save', [RankController::class, 'usr']);
+Route::get('/question', [RankController::class, 'question']);
 
 Route::get('/Score', function () {
     return view('score');

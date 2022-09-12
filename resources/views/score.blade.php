@@ -64,7 +64,7 @@
         </table>
         
     </div>
-                <a href="/" class="btn">Welcome</a>
+                <a href="/" class="btn">Volte ao início</a>
 
     </div>
     
