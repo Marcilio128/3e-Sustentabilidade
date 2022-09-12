@@ -1,14 +1,21 @@
+.sec-tabela{
+    margin-top: 20vh;
+
+}
 .sec-tabela .container{
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;    
+    display: flex; 
 
 }
 .sec-tabela .container .table{
     margin: 0 auto;
 
+}
+h1{
+    margin: 1rem 0
 }
 .start{
     margin: 0 auto;
@@ -20,26 +27,43 @@
     margin-top: 10vh;
     color: var(--color-primary);
     font-size: 2rem;
+    
+}
+table{
+    margin: 0 0 4rem;  
+    text-align: center;
+    border-spacing: 0px;
+    border: 0;
+    font-size: 0.9rem;
+
 }
 #card{
-    width:30vw;
+    width: 70vw;    
     
 }
 .card {
-    background:  rgba(255, 255, 255, 0.603);
+    background:  rgba(255, 255, 255, 0.798);
     border-radius: 15px;
         
 
     overflow: hidden;
     transition: 0.5s;
   }
+  td{
+    padding: 0.6rem;
 
-.table{
-    box-shadow: solid 10rem rgb(255, 255, 255);
+  }
+  th{
+    padding: 0.6rem;
 
-	width:20.3rem;
-	border: 0px;
-}
+    border: 0;
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 300;
+    width: 10rem;
+    margin: 0 -3rem;
+    
+  }
 .title{
     display: flex;
     justify-content: space-between;
@@ -52,17 +76,68 @@
     color: white;
 }
 .imglogo{
-    width: 8vw;
+    width: 10%;
 }
-.title-name{
-    margin: 0.5rem;
-}
-.title-Points{
-    margin: 0.5rem;
-}
+
 .background{
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
+}
+.btn{
+    width: 400px;
+    padding: 8px 5px;
+    margin: 0.5rem;
+    
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem auto;
+
+    
+    background: var(--color-primary);
+    color: white;
+    
+    border-radius: 5px;
+    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+
+  .btn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: var(--color-secondary);
+    color: rgb(255, 255, 255);
+  }
+@media only screen and (max-width: 1200px){
+    #card{
+        width:40vw;
+        
+    }
+}
+@media only screen and (max-width: 900px){
+    #card{
+        width:50vw;
+        
+    }
+}
+@media only screen and (max-width: 700px){
+    #card{
+        width:60vw;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    #card{
+        width: 70vw;
+        
+    }
+}
+@media only screen and (max-width: 500px){
+    #card{
+        width: 90vw;
+        
+    }
 }

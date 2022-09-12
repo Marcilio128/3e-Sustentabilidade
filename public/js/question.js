@@ -229,20 +229,20 @@ function verificarSeAcertou(nQuestao, resposta) {
     let certa = questoes[numeroDaQuestao].correta
     let porque = questoes[numeroDaQuestao].motivo
 
-
-    if(respostaEscolhida == certa) {
+    
+   if(respostaEscolhida == certa) {
         pontos += 10
-        modal.classList.add('esconder');
+        document.getElementById("modalopen").style.display = "none";
 
     } 
     else{
         pontos += -10
-       
+        document.getElementById("modalopen").style.display = "block";
+
 
         show.innerText = "Resposta correta:  " + certa;
         explicação.innerText = porque;
     }
-
     // atualizar placar
     placar = pontos
     instrucoes.textContent = "Pontos " + placar

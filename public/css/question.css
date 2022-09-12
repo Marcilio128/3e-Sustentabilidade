@@ -151,7 +151,8 @@ li{
     opacity: 0;
     pointer-events: none;
   }
-  
+
+
   #modal.esconder {
     top: 0;
   }

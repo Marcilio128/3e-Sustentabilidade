@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/result.css">
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/score.css">
 
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
