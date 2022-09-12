@@ -23,6 +23,10 @@ class RankController extends Controller
         return view('question');
     }
 
+    public function ops(){
+        return view('UcanMore');
+    }
+
     // manipulação de dados
     public function usr(Request $request){
         $ranks = new rank;
@@ -31,5 +35,13 @@ class RankController extends Controller
 
         $ranks->save();
         return redirect('/question');
+    }
+
+    public function sv(){
+        $ranks = new rank;
+    
+        $ranks->pontos = json_encode($_COOKIE['cookie']);
+            $ranks->save();
+                return redirect('/TryAgain');
     }
 }

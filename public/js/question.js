@@ -298,7 +298,9 @@ function fimDoJogo() {
 
         }
         else if(pontos >= 50 < 90){
-            window.location.href = "/TryAgain"
+            // salvamento de cookie para envio pro banco de dados
+            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            window.location.href = "/sv"
 
         }
         else if(pontos >= 90){
