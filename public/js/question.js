@@ -52,13 +52,13 @@ const q0 = {
 
 const q1 = {
     numQuestao: 1,
-    pergunta: "O descarte de plastico e metal devem ser feitos, em lixeiras de cores:",
+    pergunta: "O descarte de plástico e metal devem ser feitos, em lixeiras de cores:",
     alternativaA: "Azul & Verde",
     alternativaB: "Vermelha & Amarela",
     alternativaC: "Verde & Marrom",
     alternativaD: "Branca e Laranja",
     correta: "Vermelha & Amarela",
-    motivo: "Lixeiras vermelhas e amarelas ambas respectivamentes estão ligadas ao descarte de plastico e metal"
+    motivo: "Lixeiras vermelhas e amarelas estão ligadas, respectivamente, ao descarte de plástico e metal."
 
 }
 
@@ -70,7 +70,7 @@ const q2 = {
     alternativaC: "Luz e vida",
     alternativaD: "Ecoenel",
     correta: "Ecoenel",
-    motivo: "Porque"
+    motivo: "Este projeto foi criado visando diminuir o gasto por energia, e junto diminuindo a quantidade de resíduos descartados incorretamente e ajudar quem precisa."
 
 
 }
@@ -83,7 +83,7 @@ const q3 = {
     alternativaC: "Ajudar a manter as pessoas nas suas casas da cidade",
     alternativaD: "Conservar o meio ambiente para ajudar a evitar única e exclusivamente o efeito estufa",
     correta: "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
-    motivo: "Porque"
+    motivo: "Porque a sustentabilidade busca a preservação ambiental."
 }
 
 const q4 = {
@@ -94,7 +94,7 @@ const q4 = {
     alternativaC: "Nuclear",
     alternativaD: "Carvão mineral",
     correta: "Petróleo",
-    motivo: "Porque"
+    motivo: "Na produção de energia por petróleo, é emitido gases tóxicos para a atmosfera e, consequentemente, para a natureza."
 }
 
 const q5 = {
@@ -105,7 +105,7 @@ const q5 = {
     alternativaC: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
     alternativaD: "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
     correta: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
-    motivo: "Porque"
+    motivo: 'Porque a sustentabilidade visa justamente evitar ao máximo que nossa natureza "suma" para futuras gerações.'
 }
 
 const q6 = {
@@ -116,7 +116,7 @@ const q6 = {
     alternativaC: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
     alternativaD: "Categoria de produtos que são renováveis, ou seja, que não acaba",
     correta: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
-    motivo: "Porque"
+    motivo: "Produtos biodegradáveis são produtos que se decompõem por algum agente biológico, por exemplo um corpo de um animal se decompondo por bactérias."
 }
 
 const q7 = {
@@ -127,7 +127,7 @@ const q7 = {
     alternativaC: "Replantio de árvore recém cortada",
     alternativaD: "Incineração",
     correta: "Coleta Seletiva",
-    motivo: "Porque"
+    motivo: "Porque uma das etapas da Coleta Seletiva é reciclar o que der e precisar reciclar."
 }
 
 const q8 = {
@@ -138,27 +138,27 @@ const q8 = {
     alternativaC: "Reaproveitamento de Recicláveis",
     alternativaD: "Coleta de lixos recicláveis",
     correta: "Processo de separação e coleta de resíduos para reciclagem",
-    motivo: "Porque"
+    motivo: "Porque o nome coleta vem de coletar os resíduos, e seletiva de selecionar, basicamente selecionando os resíduos para suas respectivas finalidades."
 }
 const q9 = {
     numQuestao: 9,
-    pergunta: "O que é coleta seletiva?",
-    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
-    alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
-    alternativaC: "Reaproveitamento de Recicláveis",
-    alternativaD: "Coleta de lixos recicláveis",
-    correta: "Processo de separação e coleta de resíduos para reciclagem",
-    motivo: "Porque"
+    pergunta: "O que acontece se não executarmos o desenvolvimento sustentável?",
+    alternativaA: "Não existirá lixeiras recicláveis",
+    alternativaB: "Apenas as plantações irão perecer",
+    alternativaC: "Há a tendência de que os recursos naturais importantes esgotem",
+    alternativaD: "As empresas irão lucrar mais",
+    correta: "Há a tendência de que os recursos naturais importantes esgotem",
+    motivo: "Porque o desenvolvimento sustentável visa principalmente a preservação do ambiente para futuras gerações terem o que precisam para sobreviver."
 }
 const q10 = {
     numQuestao: 10,
-    pergunta: "O que é coleta seletiva?",
-    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
-    alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
-    alternativaC: "Reaproveitamento de Recicláveis",
-    alternativaD: "Coleta de lixos recicláveis",
-    correta: "Processo de separação e coleta de resíduos para reciclagem",
-    motivo: "Porque"
+    pergunta: "Quais desses meios de transporte não polue o ambiente?",
+    alternativaA: "Bicicleta",
+    alternativaB: "Navio",
+    alternativaC: "Carro a combustão",
+    alternativaD: "Avião",
+    correta: "Bicicleta",
+    motivo: "Porque diferente dos automóveis, a Bicicleta não utiliza de combustíveis fósseis para funcionar."
 }
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
 const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
