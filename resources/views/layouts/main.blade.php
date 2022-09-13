@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/result.css">
         <link rel="stylesheet" href="./css/reset.css">
-
+        <link rel="icon"  href="./assets/3e-icon-color.ico">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <title>@yield('title')</title>

@@ -90,6 +90,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .about-animation{
+        width: 20rem;
+    }
 }
 
 @media only screen and (max-width: 350px){

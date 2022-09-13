@@ -375,10 +375,10 @@ button{
 
 @keyframes bigball3 { 
 	from { 
-		transform: translate(10px, 190px);
+		transform: translate(10px, 200px);
 	} 
 	to { 
-		transform: translate(140px, -200px); 
+		transform: translate(140px, -180px); 
 
 	 } 
 }
