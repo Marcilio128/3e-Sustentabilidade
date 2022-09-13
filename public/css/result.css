@@ -1,7 +1,10 @@
+.secTry .container{
+  display: flex;
+}
 .btnPoints{
 	width: 50vw;
 	padding: 8px 5px;
-	margin: 0.5rem;
+	margin: 1rem;
 
 	display: flex;
 	justify-content: center;
@@ -31,25 +34,23 @@
 
   .position{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 0 5rem;
+    flex-direction: column;
+
+    margin: 6rem 0 0 3rem;
     
   }
   
-  .position .animate{
-
-    margin: 0 5rem 0 0;
-    border-radius: 10rem;
-    width: 700px;
+  .animate{
+    margin: 0 0 0 3rem;
+    width: 150vw;
     height: 400px;
   }
 
   .position h3{
-    width: 50%;
+    width: 100%;
     text-align: justify;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--color-primary);
   }
 
@@ -60,70 +61,70 @@
 
 
   .animateWin{
-    margin: 0 5rem;
-    width: 700px;
-    height: 600px;
+    margin: -2rem 0 0 2rem;
+    width: 500vw;
+    height: 400px;
   }
-  .Circle{
-    width: 150px;
-    height: 150px;
-  }  
-circle{
-  fill: none;
-  stroke: var(--color-primary);
-  stroke-width: 10;
-  transform: translate(5px, 5px);
-  stroke-dasharray: 440;
-  stroke-dashoffset: 440;
-}
-
-circle:nth-child(1){
-  stroke-dashoffset: 0;
-  stroke: var(--color-primary);
-}
-circle:nth-child(2){
-  stroke-dashoffset: calc(440 - 308);
-  stroke: var(--color-secondary);
-}
-
-.box-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.number h2{
-  margin: 0 0.5rem;
-  width: 100%;
-  text-align: center;
-}
 
 @media only screen and (max-width: 1300px){
-  .container .position{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 3rem auto;
-  }
   .position h3{
     margin: 3rem 0;
-
-
+  }
+  .imgLose{
+    width: 30vw;
+    margin: 5rem 10rem;
   }
   .btnPoints{
     margin: 3rem 0;
-    width: 50vw;
+    width: 40vw;
 
   }
+  
 }
+@media only screen and (max-width: 1100px){
+  .secTry .container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+  }
+.container .position{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+.position h3{
+  width: 90%;
+}
+.btnPoints{
+  margin: 1rem auto;
+  }
+  .imgLose{
+    margin: 0;
+    width: 20rem;
+  }
+  .position .animate{
+    margin: 0;
+
+    width: 100vw;
+  }
+
+
+}
 @media only screen and (max-width: 600px){
   .position h3{
     top: 0%;
     width: 90%;
-    text-align: justify;
+    text-align: center;
     font-weight: 500;
     font-size: 1.5rem;
     color: var(--color-primary);
+    text-align: center;
+    margin: 1rem 0;
+
   }
   .btnPoints{
     display: flex;
@@ -131,6 +132,26 @@ circle:nth-child(2){
     align-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 2rem auto;
+    width: 90vw;
+  }
+  .animate{
+    margin: 0 0 0 3rem;
+    width: 100vw;
+    height: 400px;
+  }
+
+}
+@media only screen and (max-width: 500px){
+  .animate{
+    width: 70vw;
     margin: 0 auto;
+    height: 300px;
+
+  }
+  .animateWin{
+    margin: 0 1rem;
+    width: 100vw;
+    height: 250px;
   }
 }
