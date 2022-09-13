@@ -11,20 +11,20 @@ let fade = document.querySelector("#mostrar");
 let toggleModal = () => {
     modal.classList.toggle("esconder");
     fade.classList.toggle("esconder");
-  };
+};
 
-    for (var i = 0 ; i < openModalButton.length; i++) {
+for (var i = 0; i < openModalButton.length; i++) {
     openModalButton[i].addEventListener("click", () => toggleModal());
 };
 
   [closeModalButton, fade, closemobilemodal].forEach((el) => {
     el.addEventListener("click", () => toggleModal());
-  }); 
+});
 
 
 // PERGUNTA
 let numQuestao = document.querySelector('#numQuestao')
-let pergunta   = document.querySelector('#pergunta')
+let pergunta = document.querySelector('#pergunta')
 
 // ALTERNATIVAS
 let a = document.querySelector('#a')
@@ -40,143 +40,143 @@ let alternativas = document.querySelector('#alternativas')
 
 
 const q0 = {
-    numQuestao   : 0,
-    pergunta     : "Pergunta",
-    alternativaA : "Alternativa A",
-    alternativaB : "Alternativa B",
-    alternativaC : "Alternativa C",
-    alternativaD : "Alternativa D",
-    correta      : "0",
-    motivo       : "Porque"
+    numQuestao: 0,
+    pergunta: "Pergunta",
+    alternativaA: "Alternativa A",
+    alternativaB: "Alternativa B",
+    alternativaC: "Alternativa C",
+    alternativaD: "Alternativa D",
+    correta: "0",
+    motivo: "Porque"
 }
 
 const q1 = {
-    numQuestao   : 1,
-    pergunta     : "O descarte de plastico e metal devem ser feitos, em lixeiras de cores:",
-    alternativaA : "Azul & Verde",
-    alternativaB : "Vermelha & Amarela",
-    alternativaC : "Verde & Marrom",
-    alternativaD : "Branca e Laranja",
-    correta      : "Vermelha & Amarela",
-    motivo       : "Lixeiras vermelhas e amarelas ambas respectivamentes estão ligadas ao descarte de plastico e metal"
+    numQuestao: 1,
+    pergunta: "O descarte de plastico e metal devem ser feitos, em lixeiras de cores:",
+    alternativaA: "Azul & Verde",
+    alternativaB: "Vermelha & Amarela",
+    alternativaC: "Verde & Marrom",
+    alternativaD: "Branca e Laranja",
+    correta: "Vermelha & Amarela",
+    motivo: "Lixeiras vermelhas e amarelas ambas respectivamentes estão ligadas ao descarte de plastico e metal"
 
 }
 
 const q2 = {
-    numQuestao   : 2,
-    pergunta     : "O projeto responsável por trocar resíduos recicláveis por bônus na conta de luz: ",
-    alternativaA : "Ecocelpa",
-    alternativaB : "Enel +",
-    alternativaC : "Luz e vida",
-    alternativaD : "Ecoenel",
-    correta      : "Ecoenel",
-    motivo       : "Porque"
-    
+    numQuestao: 2,
+    pergunta: "O projeto responsável por trocar resíduos recicláveis por bônus na conta de luz: ",
+    alternativaA: "Ecocelpa",
+    alternativaB: "Enel +",
+    alternativaC: "Luz e vida",
+    alternativaD: "Ecoenel",
+    correta: "Ecoenel",
+    motivo: "Porque"
+
 
 }
 
 const q3 = {
-    numQuestao   : 3,
-    pergunta     : "Qual a importância da sustentabilidade?",
-    alternativaA : "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
-    alternativaB : "Preservar a natureza para que o homem possa usar para ações industriais futuras",
-    alternativaC : "Ajudar a manter as pessoas nas suas casas da cidade",
-    alternativaD : "Conservar o meio ambiente para ajudar a evitar única e exclusivamente o efeito estufa",
-    correta      : "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
-    motivo       : "Porque"
+    numQuestao: 3,
+    pergunta: "Qual a importância da sustentabilidade?",
+    alternativaA: "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
+    alternativaB: "Preservar a natureza para que o homem possa usar para ações industriais futuras",
+    alternativaC: "Ajudar a manter as pessoas nas suas casas da cidade",
+    alternativaD: "Conservar o meio ambiente para ajudar a evitar única e exclusivamente o efeito estufa",
+    correta: "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
+    motivo: "Porque"
 }
 
 const q4 = {
-    numQuestao   : 4,
-    pergunta     : "Quais das opções abaixo não é uma forma sustentável de gerar energia elétrica?",
-    alternativaA : "Eólica",
-    alternativaB : "Petróleo",
-    alternativaC : "Nuclear",
-    alternativaD : "Carvão mineral",
-    correta      : "Petróleo",
-    motivo       : "Porque"
+    numQuestao: 4,
+    pergunta: "Quais das opções abaixo não é uma forma sustentável de gerar energia elétrica?",
+    alternativaA: "Eólica",
+    alternativaB: "Petróleo",
+    alternativaC: "Nuclear",
+    alternativaD: "Carvão mineral",
+    correta: "Petróleo",
+    motivo: "Porque"
 }
 
 const q5 = {
-    numQuestao   : 5,
-    pergunta     : "Quais são os benefícios da sustentabilidade?",
-    alternativaA : "Diminuir a obesidade",
-    alternativaB : "Evitar que o homem desmate árvores",
-    alternativaC : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
-    alternativaD : "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
-    correta      : "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
-    motivo       : "Porque"
+    numQuestao: 5,
+    pergunta: "Quais são os benefícios da sustentabilidade?",
+    alternativaA: "Diminuir a obesidade",
+    alternativaB: "Evitar que o homem desmate árvores",
+    alternativaC: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
+    alternativaD: "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
+    correta: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
+    motivo: "Porque"
 }
 
 const q6 = {
-    numQuestao   : 6,
-    pergunta     : "O que são produtos biodegradáveis?",
-    alternativaA : "Objetos feitos com material reciclável",
-    alternativaB : "Produtos recicláveis ",
-    alternativaC : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
-    alternativaD : "Categoria de produtos que são renováveis, ou seja, que não acaba",
-    correta      : "Produtos que se decompõe facilmente compostos por elementos orgânicos",
-    motivo       : "Porque"
+    numQuestao: 6,
+    pergunta: "O que são produtos biodegradáveis?",
+    alternativaA: "Objetos feitos com material reciclável",
+    alternativaB: "Produtos recicláveis ",
+    alternativaC: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    alternativaD: "Categoria de produtos que são renováveis, ou seja, que não acaba",
+    correta: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    motivo: "Porque"
 }
 
 const q7 = {
-    numQuestao   : 7,
-    pergunta     : "Qual das opções abaixo é um exemplo de reciclagem?",
-    alternativaA : "Acúmulo de matéria prima",
-    alternativaB : "Coleta Seletiva",
-    alternativaC : "Replantio de árvore recém cortada",
-    alternativaD : "Incineração",
-    correta      : "Coleta Seletiva",
-    motivo       : "Porque"
+    numQuestao: 7,
+    pergunta: "Qual das opções abaixo é um exemplo de reciclagem?",
+    alternativaA: "Acúmulo de matéria prima",
+    alternativaB: "Coleta Seletiva",
+    alternativaC: "Replantio de árvore recém cortada",
+    alternativaD: "Incineração",
+    correta: "Coleta Seletiva",
+    motivo: "Porque"
 }
 
 const q8 = {
-    numQuestao   : 8,
-    pergunta     : "O que é coleta seletiva?",
-    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
-    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
-    alternativaC : "Reaproveitamento de Recicláveis",
-    alternativaD : "Coleta de lixos recicláveis",
-    correta      : "Processo de separação e coleta de resíduos para reciclagem",
-    motivo       : "Porque"
+    numQuestao: 8,
+    pergunta: "O que é coleta seletiva?",
+    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC: "Reaproveitamento de Recicláveis",
+    alternativaD: "Coleta de lixos recicláveis",
+    correta: "Processo de separação e coleta de resíduos para reciclagem",
+    motivo: "Porque"
 }
 const q9 = {
-    numQuestao   : 9,
-    pergunta     : "O que é coleta seletiva?",
-    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
-    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
-    alternativaC : "Reaproveitamento de Recicláveis",
-    alternativaD : "Coleta de lixos recicláveis",
-    correta      : "Processo de separação e coleta de resíduos para reciclagem",
-    motivo       : "Porque"
+    numQuestao: 9,
+    pergunta: "O que é coleta seletiva?",
+    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC: "Reaproveitamento de Recicláveis",
+    alternativaD: "Coleta de lixos recicláveis",
+    correta: "Processo de separação e coleta de resíduos para reciclagem",
+    motivo: "Porque"
 }
 const q10 = {
-    numQuestao   : 10,
-    pergunta     : "O que é coleta seletiva?",
-    alternativaA : "Processo de separação e coleta de resíduos para reciclagem",
-    alternativaB : "Entrega de todo lixo reciclável para catadores de reciclagem",
-    alternativaC : "Reaproveitamento de Recicláveis",
-    alternativaD : "Coleta de lixos recicláveis",
-    correta      : "Processo de separação e coleta de resíduos para reciclagem",
-    motivo       : "Porque"
+    numQuestao: 10,
+    pergunta: "O que é coleta seletiva?",
+    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
+    alternativaC: "Reaproveitamento de Recicláveis",
+    alternativaD: "Coleta de lixos recicláveis",
+    correta: "Processo de separação e coleta de resíduos para reciclagem",
+    motivo: "Porque"
 }
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
 const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 
 let numero = document.querySelector('#numero')
-let total  = document.querySelector('#total')
+let total = document.querySelector('#total')
 
 numero.textContent = q1.numQuestao
 
 
 
-let totalDeQuestoes = (questoes.length)-1
+let totalDeQuestoes = (questoes.length) - 1
 console.log("Total de questões " + totalDeQuestoes)
 total.textContent = totalDeQuestoes
 
 // MONTAR A 1a QUESTAO COMPLETA, para iniciar o Quiz
 numQuestao.textContent = q1.numQuestao
-pergunta.textContent   = q1.pergunta
+pergunta.textContent = q1.pergunta
 a.textContent = q1.alternativaA
 b.textContent = q1.alternativaB
 c.textContent = q1.alternativaC
@@ -193,15 +193,15 @@ d.setAttribute('value', '1D')
 function proximaQuestao(nQuestao) {
     numero.textContent = nQuestao
     numQuestao.textContent = questoes[nQuestao].numQuestao
-    pergunta.textContent   = questoes[nQuestao].pergunta
+    pergunta.textContent = questoes[nQuestao].pergunta
     a.textContent = questoes[nQuestao].alternativaA
     b.textContent = questoes[nQuestao].alternativaB
     c.textContent = questoes[nQuestao].alternativaC
     d.textContent = questoes[nQuestao].alternativaD
-    a.setAttribute('value', nQuestao+'A')
-    b.setAttribute('value', nQuestao+'B')
-    c.setAttribute('value', nQuestao+'C')
-    d.setAttribute('value', nQuestao+'D')
+    a.setAttribute('value', nQuestao + 'A')
+    b.setAttribute('value', nQuestao + 'B')
+    c.setAttribute('value', nQuestao + 'C')
+    d.setAttribute('value', nQuestao + 'D')
 
 }
 
@@ -231,13 +231,13 @@ function verificarSeAcertou(nQuestao, resposta) {
     let certa = questoes[numeroDaQuestao].correta
     let porque = questoes[numeroDaQuestao].motivo
 
-    
-   if(respostaEscolhida == certa) {
+
+    if (respostaEscolhida == certa) {
         pontos += 10
         show.innerText = "Você Acertou:  " + certa + " é a resposta correta";
         explicação.innerText = porque;
-    } 
-    else{
+    }
+    else {
         pontos += -10
 
 
@@ -251,11 +251,11 @@ function verificarSeAcertou(nQuestao, resposta) {
     // bloquear a escolha de opcoes
     bloquearAlternativas()
 
-    setTimeout(function() {
+    setTimeout(function () {
         //respostaEsta.textContent = '...'
-        proxima = numeroDaQuestao+1
+        proxima = numeroDaQuestao + 1
 
-        if(proxima > totalDeQuestoes) {
+        if (proxima > totalDeQuestoes) {
             console.log('Fim do Jogo!')
             fimDoJogo()
         } else {
@@ -272,7 +272,7 @@ function fimDoJogo() {
     let pont = ''
     pontos == 0 ? pont = 'ponto' : pont = 'pontos'
 
-    pergunta.textContent   = "Você conseguiu " + pontos + " " + pont
+    pergunta.textContent = "Você conseguiu " + pontos + " " + pont
 
     aviso.textContent = "Você conseguiu " + pontos + " " + pont
 
@@ -289,29 +289,26 @@ function fimDoJogo() {
     // OCULTAR O ARTICLE DA QUESTAO
     articleQuestoes.style.display = 'none'
 
-    setTimeout(function() {
+    setTimeout(function () {
 
-        if(pontos < 50){
-
-        window.location.href = "/Lose"
-        console.log(pontos)
-
-
-
-        }
-        else if(pontos >= 50 < 90){
+        if (pontos < 50) {
             // salvamento de cookie para envio pro banco de dados
             document.cookie = "cookie" + "=" + pontos + "; path: /;"
-            window.location.href = "/sv"
+            window.location.href = "/ls"
 
         }
-        else if(pontos >= 90){
-            window.location.href = "/Win"
+        else if (pontos < 90) {
+            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            window.location.href = "/ta"
 
         }
-        else{
+        else if (pontos >= 90) {
+            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            window.location.href = "/wn"
+
+        }
+        else {
             window.location.href = "/"
-
 
         }
     }, 1000)

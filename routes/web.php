@@ -9,11 +9,13 @@ Route::get('/', [RankController::class, 'index']);
 Route::get('/Quiz3E', [RankController::class, 'quiz']);
 Route::post('/save', [RankController::class, 'usr']); /* salvar nome do formulário */
 Route::get('/question', [RankController::class, 'question']);
-Route::get('/sv', [RankController::class, 'sv']); /* salvar pontos do quiz */
-Route::get('/TryAgain', [RankController::class, 'ops']);
+Route::get('/ta', [RankController::class, 'ta']); /* salvar pontos do quiz */
+Route::get('/ls', [RankController::class, 'ls']);
+Route::get('/wn', [RankController::class, 'wn']);
+Route::get('/Score', [RankController::class, 'mostra_dados']);
 
-Route::get('/Score', function () {
-    return view('score');
+Route::get('/TryAgain', function() {
+    return view('UcanMore');
 });
 
 Route::get('/Sobre', function () {
@@ -28,9 +30,10 @@ Route::get('/TryAgain', function () {
     return view('UcanMore');
 });
 
-Route::get('/Win', function () {
+Route::get('/Win', function(){
     return view('win');
 });
+
 Route::fallback(function(){
     return view('NotFound');
 });

@@ -29,19 +29,59 @@ class RankController extends Controller
 
     // manipulação de dados
     public function usr(Request $request){
-        $ranks = new rank;
 
-        $ranks->nome = $request->nome;
+        if(!isset($_SESSION)){
+            session_start();
+        }
 
-        $ranks->save();
+        $_SESSION['nome'] = $_POST['nome'];
+
         return redirect('/question');
     }
 
-    public function sv(){
+    public function wn(Request $request){
         $ranks = new rank;
-    
+        if(!isset($_SESSION)){
+            session_start();
+        }
+
+        $ranks->nome = json_encode($_SESSION['nome']);
         $ranks->pontos = json_encode($_COOKIE['cookie']);
+
+            $ranks->save();
+                return redirect('/Win');
+    }
+
+    public function ls(Request $request){
+        $ranks = new rank;
+        if(!isset($_SESSION)){
+            session_start();
+        }
+
+        $ranks->nome = json_encode($_SESSION['nome']);
+        $ranks->pontos = json_encode($_COOKIE['cookie']);
+
+            $ranks->save();
+                return redirect('/Lose');
+    }
+
+    public function ta(Request $request){
+        $ranks = new rank;
+        if(!isset($_SESSION)){
+            session_start();
+        }
+
+        $ranks->nome = json_encode($_SESSION['nome']);
+        $ranks->pontos = json_encode($_COOKIE['cookie']);
+
             $ranks->save();
                 return redirect('/TryAgain');
+    }
+
+    public function mostra_dados(){
+        $ranks = new rank;
+
+        $ranks = rank::orderBy('pontos', 'desc')->get();
+        return view('score',['ranks' => $ranks]);
     }
 }
