@@ -36,8 +36,8 @@
                     <form action="/save" method="POST"> {{-- envio e encaminhamento para o banco de dados e formulário --}}
                         @csrf {{-- permissão pro formulário funcionar --}}
                         <div class="input-container">
-                            <input autocomplete="off" type="text" id="name" name="nome" required="" />
-                            <label class="sem">Digite seu nome</label>
+                            <input pattern="[a-zA-Z0-9]+" autocomplete="off" type="text" id="name" name="nome" required="" />
+                            <label>Digite seu nome</label>
                         </div>
                         <input value="Começar" type="submit" class="btn" id="btnSubmit">
                         <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button>

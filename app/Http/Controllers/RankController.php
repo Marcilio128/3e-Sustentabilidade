@@ -45,8 +45,9 @@ class RankController extends Controller
             session_start();
         }
 
-        $ranks->nome = json_encode($_SESSION['nome']);
-        $ranks->pontos = json_encode($_COOKIE['cookie']);
+        $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
+
 
             $ranks->save();
                 return redirect('/Win');
@@ -58,9 +59,8 @@ class RankController extends Controller
             session_start();
         }
 
-        $ranks->nome = json_encode($_SESSION['nome']);
-        $ranks->pontos = json_encode($_COOKIE['cookie']);
-
+        $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
             $ranks->save();
                 return redirect('/Lose');
     }
@@ -71,8 +71,8 @@ class RankController extends Controller
             session_start();
         }
 
-        $ranks->nome = json_encode($_SESSION['nome']);
-        $ranks->pontos = json_encode($_COOKIE['cookie']);
+        $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
 
             $ranks->save();
                 return redirect('/TryAgain');
