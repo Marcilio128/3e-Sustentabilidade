@@ -36,9 +36,15 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @php
+                                $a = '0';
+                            @endphp
                             @foreach ($ranks as $rank)
                                 <tr>
-                                    <td>°°</td>
+                                    <td>@php
+                                        $a++;
+                                        echo "$a °";
+                                    @endphp</td>
                                     <td>{{ $rank->nome }}</td>
                                     <td>{{ $rank->pontos }}</td>
                                     {{-- exibição de dados do Banco --}}
