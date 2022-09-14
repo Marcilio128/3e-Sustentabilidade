@@ -10,8 +10,8 @@ Route::get('/Quiz3E', [RankController::class, 'quiz']);
 Route::post('/save', [RankController::class, 'usr']); /* salvar nome do formulário */
 Route::get('/question', [RankController::class, 'question']);
 Route::get('/ta', [RankController::class, 'ta']); /* salvar pontos do quiz */
-Route::get('/ls', [RankController::class, 'ls']);
-Route::get('/wn', [RankController::class, 'wn']);
+Route::get('/ls', [RankController::class, 'ls']); /* salvar pontos do quiz */
+Route::get('/wn', [RankController::class, 'wn']); /* salvar pontos do quiz */
 Route::get('/Score', [RankController::class, 'mostra_dados']);
 
 Route::get('/TryAgain', function() {

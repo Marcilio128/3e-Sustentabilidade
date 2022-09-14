@@ -41,10 +41,12 @@ class RankController extends Controller
 
     public function wn(Request $request){
         $ranks = new rank;
+            /* sessão para receber o nome */
         if(!isset($_SESSION)){
             session_start();
         }
-
+        /* str_ireplace (array) para retirar as " do salvamento*/
+        /* json_encode para converter pra string */
         $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
         $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
 
