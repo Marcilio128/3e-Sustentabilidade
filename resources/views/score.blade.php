@@ -43,7 +43,7 @@
                                 <tr>
                                     <td>@php
                                         $a++;
-                                        echo "$a °";
+                                        echo "$a"."°";
                                     @endphp</td>
                                     <td>{{ $rank->nome }}</td>
                                     <td>{{ $rank->pontos }}</td>
