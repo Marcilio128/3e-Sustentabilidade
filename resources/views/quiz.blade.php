@@ -8,9 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-
     <link rel="stylesheet" href="./css/registerQuiz.css">
-
+    <link rel="icon"  href="./assets/3e-icon-color.ico">
 
     <title>Registro</title>
 </head>
