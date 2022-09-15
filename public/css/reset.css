@@ -26,7 +26,9 @@ a{
     font-weight: 400;
 }
 
-
+.link{
+    text-decoration: underline;
+}
 body::-webkit-scrollbar{
     width: 1px;
 

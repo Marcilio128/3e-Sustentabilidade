@@ -1,6 +1,9 @@
+body{
+    overflow-x: hidden;
+}
 .sec-tabela{
-    margin-top: 20vh;
-
+    margin-top: 10vh;
+    
 }
 .sec-tabela .container{
     margin: 0 auto;
@@ -35,11 +38,12 @@ table{
     border-spacing: 0px;
     border: 0;
     font-size: 0.9rem;
+    margin: 3rem;
+
 
 }
 #card{
     width: 70vw;    
-    
 }
 .card {
     background:  rgba(255, 255, 255, 0.798);
@@ -115,6 +119,10 @@ table{
     #card{
         width:40vw;
         
+    }
+    .btn{
+        width: 200px;
+
     }
 }
 @media only screen and (max-width: 900px){

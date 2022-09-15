@@ -25,7 +25,7 @@
     <a href="/Quiz3E" id="Descarte" class="btn-quiz">Faça o nosso teste</a>
 </div>
 </div>
-<div data-aos="flip-up">
+<div data-aos="flip-left">
 
 
 <h1  class="card-title">Conheça sobre o descarte correto</h1>

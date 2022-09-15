@@ -306,6 +306,10 @@ li{
     .ImgLogo{
         display: none;
     }
+    .modal-body{
+        overflow: scroll;
+        height: 20rem;
+    }
     .btnModal{
         display: none;
 

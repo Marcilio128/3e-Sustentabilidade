@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/about.css">
         <link rel="stylesheet" href="./css/result.css">
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="icon"  href="./assets/3e-icon-color.ico">
+        <link rel="icon" href="./assets/3e-logo-color.ico">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <title>@yield('title')</title>
@@ -48,17 +48,29 @@
 <img class="logo-3e" src="/assets/logo3e.png" alt=""> </img>
         <p style="color: white;">&copy; 3E Soluções</p>
 
-        <a href="#"><img src="/assets/linkedin.png" class="linedin" alt=""></a>
-        <a href="#"><img src="/assets/facebook.png" class="face" alt=""></a>
-        <a href="#"><img src="/assets/whatsapp.png" class="wpp" alt=""></a>
+        <a href="https://www.linkedin.com/company/3e-solucoes-em-eficiencia-energetica/?originalSubdomain=br"><img src="/assets/linkedin.png" class="linedin" alt=""></a>
+        <a href="https://site.3esolucoes.com.br/"><img src="/assets/Link.png" class="link" alt=""></a>
+        <a href="https://3esolucoes.gupy.io/"><img src="/assets/TrabalheConosco.png" class="wpp" alt=""></a>
 
     </div>
 </footer>
 
     </body>
     <script src="./js/scriptStatic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+<script src="https://www.drcode.com.br/nofollow/aviso-cookies/drcode.cookies.js"></script>
+<script>
+  avisoCookiesDrcode({
+    message:'Utilizamos cookies para que você tenha a melhor experiência em nosso site. Para saber mais acesse nossa página de <a href="https://adoptfiles.s3.amazonaws.com/policy/2021-11-09T15%3A01%3A12.776Z_939c43ff-512b-4ec9-9fb8-a7fe56697ec7_3esolucoes-politica-de-privacidade.pdf" class="link"> Política de Privacidade </a>',
+    backgroundColor:'rgba(255,255,255,0.95)',
+    textColor:'rgb(203,86,22)',
+    buttonBackgoundColor:'rgb(203,86,22)',
+    buttonHoverBackgoundColor:'rgb(254, 204, 22)',
+    buttonTextColor:'#ffffff'
+})
+</script>
 </html>
