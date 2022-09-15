@@ -101,9 +101,9 @@
                 <div class="Ecoenel">
                     <div class="text-Ecoenel">
                         <h2>Ecoenel</h2>
-                        <p>Reconhecimento nacional e internacional, o projeto Ecoenel é um programa da Enel Ceará, que virou referência em ações 
-                        de sustentabilidade. Lançado em 2007, o projeto visa promover a troca de resíduos recicláveis por bônus na conta de luz
-                        nos estados do Ceará, Goiás e Rio de Janeiro. Formando uma rede de parcerias entre cliente, empresa e reciclador, 
+                        <p>Reconhecimento nacional e internacional, o projeto Eco é um programa, que virou referência em ações 
+                        de sustentabilidade. O projeto visa promover a troca de resíduos recicláveis por bônus na conta de luz
+                        nos estados. Formando uma rede de parcerias entre cliente, empresa e reciclador, 
                         procura  incentivar a população a adotar a separação de resíduos recicláveis em suas residências, proporcionando, 
                         em contrapartida, uma alternativa para contribuir na redução da conta de energia.</p>
                     </div>
@@ -113,15 +113,11 @@
             
 
             <div class="prj2">
-                <img class="Ecocelpa" src="/assets/Ecocelpa.jpg" alt="">
+                <img class="Ecocelpa" src="/assets/LuzSolidaria.jpg" alt="">
                     <div class="text-Ecocelpa">
-                        <h2>Ecocelpa</h2>
-                        <p>Com o intuito de minimizar os impactos que a produção desenfreada de resíduos acarreta ao meio ambiente, algumas empresas e instituições, 
-                            com o apoio da sociedade, buscam conscientizar a população sobre a destinação correta desses materiais. É o caso da Celpa, 
-                            que em março de 2015, implantou na Região Metropolitana de Belém o projeto Ecocelpa, que consiste em disponibilizar postos de coletas de 
-                            resíduos recicláveis e um dos benefícios da ação é possibilitar a troca de material reciclado por descontos na conta de energia, 
-                            incentivando, desta maneira, a prática da coleta seletiva por parte de seus clientes,  sejam pessoas físicas ou 
-                            empresas que tem como foco a conscientização ambiental por meio da destinação adequada dos resíduos.</p>
+                        <h2>Luz Solidária</h2>
+                        <p>Lançado em 2009 o Projeto Luz Solidária da Enel tem o objetivo de estimular o uso de equipamentos mais eficientes através de descontos na troca de eletrodomésticos antigos, por novos e mais eficientes.
+                            Em lojas conveniadas, os clientes que participam do projeto encontram a oportunidade de se beneficiar com a economia de energia e equipamentos novos a preços acessíveis, e o mais importante, ajudar um projeto social.</p>
                     </div>
             </div>
 

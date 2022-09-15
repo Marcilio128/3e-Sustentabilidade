@@ -37,7 +37,7 @@
                         @csrf {{-- permissão pro formulário funcionar --}}
                         <div class="input-container">
                         {{-- pattern para não aceitar caracteres especiais --}}
-                            <input pattern="[a-zA-Z0-9]+" autocomplete="off" type="text" id="name" name="nome" required="" />
+                            <input pattern="[a-zA-Z0-9 ]+" autocomplete="off" type="text" id="name" name="nome" required="" />
                             <label>Digite seu nome</label>
                         </div>
                         <input value="Começar" type="submit" class="btn" id="btnSubmit">

@@ -65,11 +65,11 @@ const q1 = {
 const q2 = {
     numQuestao: 2,
     pergunta: "O projeto responsável por trocar resíduos recicláveis por bônus na conta de luz: ",
-    alternativaA: "Ecocelpa",
+    alternativaA: "Bônus eficiente",
     alternativaB: "Enel +",
     alternativaC: "Luz e vida",
-    alternativaD: "Ecoenel",
-    correta: "Ecoenel",
+    alternativaD: "Eco",
+    correta: "Eco",
     motivo: "Este projeto foi criado visando diminuir o gasto por energia, e junto diminuindo a quantidade de resíduos descartados incorretamente e ajudar quem precisa."
 
 
