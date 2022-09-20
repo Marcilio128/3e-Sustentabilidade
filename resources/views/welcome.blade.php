@@ -7,7 +7,7 @@
 <section href="#inicio" class="sec-welcomeOne">
     <div class="container">
         <div class="text-welcome">
-            <h1>Conheça a importancia do descarte consciente</h1>
+            <h1>Conheça a importância do descarte consciente</h1>
             <p> A sustentabilidade visa a preservação e manuntenção do meio ambiente, 
                 por diversas formas ou meios. E é de suma importância a sua presença no mundo 
                 para que seja possível manter a vida na Terra, para que futuramente nossas crianças 
