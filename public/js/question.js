@@ -91,8 +91,8 @@ const q4 = {
     pergunta: "Quais das opções abaixo não é uma forma sustentável de gerar energia elétrica?",
     alternativaA: "Eólica",
     alternativaB: "Petróleo",
-    alternativaC: "Nuclear",
-    alternativaD: "Carvão mineral",
+    alternativaC: "Oceânica",
+    alternativaD: "Carvão Vegetal",
     correta: "Petróleo",
     motivo: "Na produção de energia por petróleo, é emitido gases tóxicos para a atmosfera e, consequentemente, para a natureza."
 }
