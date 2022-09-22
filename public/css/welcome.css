@@ -8,7 +8,13 @@ body{
     text-align: justify;
 
   }
-
+.SetaPBaixo{
+  display: flex;
+  width: 5rem;
+  margin: 0 auto;
+  cursor: pointer;
+  object-fit: contain;
+}
   .sec-welcomeOne .container{
     display: flex;
     justify-content: space-between;

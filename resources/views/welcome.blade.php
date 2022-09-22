@@ -25,6 +25,8 @@
     <a href="/Quiz3E" id="Descarte" class="btn-quiz">Faça o nosso teste</a>
 </div>
 </div>
+<a href="#Descarte"><img class="SetaPBaixo" src="/assets/SetaPBaixo.png" alt=""></a>
+
 <div data-aos="flip-left">
 
 
@@ -84,7 +86,6 @@
 
 
 </div>
-
 
 <div data-aos="fade-up">
 
