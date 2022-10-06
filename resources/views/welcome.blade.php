@@ -2,6 +2,13 @@
 
 @section('title', '3E')
 
+@section('button')
+    
+<li><a href="#Descarte">Descarte</a></li>
+<li><a href="#Nossos_Projetos">Nossos Projetos</a></li>
+
+@endsection
+
 @section('content')
 <div data-aos="zoom-in">
 <section href="#inicio" class="sec-welcomeOne">

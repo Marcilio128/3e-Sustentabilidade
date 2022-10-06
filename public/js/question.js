@@ -56,7 +56,7 @@ const q1 = {
     alternativaA: "Azul & Verde",
     alternativaB: "Vermelha & Amarela",
     alternativaC: "Verde & Marrom",
-    alternativaD: "Branca e Laranja",
+    alternativaD: "Branca & Laranja",
     correta: "Vermelha & Amarela",
     motivo: "Lixeiras vermelhas e amarelas estão ligadas, respectivamente, ao descarte de plástico e metal."
 

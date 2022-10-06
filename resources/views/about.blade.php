@@ -2,6 +2,13 @@
 
 @section('title', '3E')
 
+@section('button')
+    
+<li><a href="/#Descarte">Descarte</a></li>
+<li><a href="/#Nossos_Projetos">Nossos Projetos</a></li>
+
+@endsection
+
 @section('content')
     <section class="about-sec">
         <div class="container">
