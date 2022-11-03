@@ -21,5 +21,6 @@
         <img src="./assets/poluição.png" class="imgLose" alt="">
     </div>
 <script src="./js/quiz.js"></script>
+<script src="./js/time.js"></script>
 <script src="./js/question.js"></script>
 @endsection

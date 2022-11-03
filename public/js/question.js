@@ -1,6 +1,5 @@
 
 
-
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
@@ -174,7 +173,6 @@ numero.textContent = q1.numQuestao
 
 
 let totalDeQuestoes = (questoes.length) - 1
-console.log("Total de questões " + totalDeQuestoes)
 total.textContent = totalDeQuestoes
 
 // MONTAR A 1a QUESTAO COMPLETA, para iniciar o Quiz
@@ -227,7 +225,6 @@ function desbloquearAlternativas() {
 function verificarSeAcertou(nQuestao, resposta) {
 
     let numeroDaQuestao = nQuestao.value
-    console.log("Questão " + numeroDaQuestao)
 
 
     let respostaEscolhida = resposta.textContent
@@ -260,7 +257,6 @@ function verificarSeAcertou(nQuestao, resposta) {
         proxima = numeroDaQuestao + 1
 
         if (proxima > totalDeQuestoes) {
-            console.log('Fim do Jogo!')
             fimDoJogo()
         } else {
             proximaQuestao(proxima)
@@ -297,17 +293,17 @@ function fimDoJogo() {
 
         if (pontos < 50) {
             // salvamento de cookie para envio pro banco de dados
-            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            document.cookie = "ponto" + "=" + pontos + "; path: /;"
             window.location.href = "/ls"
 
         }
         else if (pontos < 90) {
-            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            document.cookie = "ponto" + "=" + pontos + "; path: /;"
             window.location.href = "/ta"
 
         }
         else if (pontos >= 90) {
-            document.cookie = "cookie" + "=" + pontos + "; path: /;"
+            document.cookie = "ponto" + "=" + pontos + "; path: /;"
             window.location.href = "/wn"
 
         }
@@ -317,11 +313,3 @@ function fimDoJogo() {
         }
     }, 1000)
 }
-
-console.log(pontos)
-
-function getPoints() {
-    console.log(pontos)
-}
-
-

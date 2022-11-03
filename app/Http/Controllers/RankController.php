@@ -48,7 +48,8 @@ class RankController extends Controller
         /* str_ireplace (array) para retirar as " do salvamento*/
         /* json_encode para converter pra string */
         $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
-        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['ponto']));
+        $ranks->tempo = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['tempo']));
 
 
             $ranks->save();
@@ -62,7 +63,8 @@ class RankController extends Controller
         }
 
         $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
-        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['ponto']));
+        $ranks->tempo = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['tempo']));
             $ranks->save();
                 return redirect('/Lose');
     }
@@ -74,7 +76,8 @@ class RankController extends Controller
         }
 
         $ranks->nome = str_ireplace( array('"'), '', json_encode($_SESSION['nome']));
-        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['cookie']));
+        $ranks->pontos = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['ponto']));
+        $ranks->tempo = str_ireplace( array('"'), '', $cook = json_encode($_COOKIE['tempo']));
 
             $ranks->save();
                 return redirect('/TryAgain');
@@ -83,7 +86,7 @@ class RankController extends Controller
     public function mostra_dados(){
         $ranks = new rank;
 
-        $ranks = rank::orderBy('pontos', 'desc')->get();
+        $ranks = rank::orderBy('pontos', 'desc')->orderBy('tempo', 'asc')->get();
         return view('score',['ranks' => $ranks]);
     }
 }

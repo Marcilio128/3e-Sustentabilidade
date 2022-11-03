@@ -45,6 +45,7 @@ function timer() {
     
     //Insere o valor tratado no elemento counter
     document.getElementById('counter').innerText = format;
+    document.cookie = "tempo" + "=" + format + "; path: /;"
 
     //Retorna o valor tratado
     return format;
