@@ -32,6 +32,7 @@
                                 <th>Posição</th>
                                 <th>Nome</th>
                                 <th>Pontos</th>
+                                <th>Tempo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -47,6 +48,7 @@
                                     @endphp</td>
                                     <td>{{ $rank->nome }}</td>
                                     <td>{{ $rank->pontos }}</td>
+                                    <td>{{ $rank->tempo }}</td>
                                     {{-- exibição de dados do Banco --}}
                                 </tr>
                             @endforeach

@@ -1,3 +1,6 @@
+
+
+
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
@@ -226,6 +229,7 @@ function verificarSeAcertou(nQuestao, resposta) {
     let numeroDaQuestao = nQuestao.value
     console.log("Questão " + numeroDaQuestao)
 
+
     let respostaEscolhida = resposta.textContent
 
     let certa = questoes[numeroDaQuestao].correta
@@ -319,3 +323,5 @@ console.log(pontos)
 function getPoints() {
     console.log(pontos)
 }
+
+

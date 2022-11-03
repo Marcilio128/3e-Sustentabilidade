@@ -48,6 +48,7 @@
             <div class="bolão03"></div>
             <div class="bolão04"></div>
 
+
     </section>
 
     <div class="bola05"></div>
@@ -60,5 +61,6 @@
 
 </body>
 <script src="/js/quiz.js" defer></script>
+<script src="/js/time.js"></script>
 
 </html>

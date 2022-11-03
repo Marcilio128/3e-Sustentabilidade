@@ -186,7 +186,9 @@ button{
 	position: absolute;
 	animation: move5 2s infinite alternate ease-in-out;
 }
-
+input#name{
+	padding: 0.5rem;
+}
 .bola06 {
 	background: var(--color-secondary);
 	border-radius: 5rem;

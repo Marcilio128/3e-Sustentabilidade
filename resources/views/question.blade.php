@@ -31,16 +31,19 @@
         <div class="vertical"></div>
     
         <div class='choices'>
+      
         <article class='points' id='instrucoes' name="points" >
         Pontos 0
-    </article>
-            <ol id='alternativas'>
-                <li id='a' value='1A' class='respostas open-modal ' onClick='verificarSeAcertou(this, this)'></li>
-                <li id='b' value='1B' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
-                <li id='c' value='1C' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
-                <li id='d' value='1D' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
-
-            </ol>
+      </article>
+      <span class="Tempo">Tempo: <article id="counter" name="tempo" class="Tempo" > 00:00:00</article></span>
+    
+    <ol id='alternativas'>
+      <li id='a' value='1A' class='respostas open-modal ' onClick='verificarSeAcertou(this, this)'></li>
+      <li id='b' value='1B' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
+      <li id='c' value='1C' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
+      <li id='d' value='1D' class='respostas open-modal' onClick='verificarSeAcertou(this, this)'></li>
+      
+    </ol>
         </div>
     </article>
     
@@ -65,9 +68,13 @@
         </div>
     </div>
 </section>
+
+
+
   </body>
 </main>
 
 </body>
+<script src="./js/time.js"></script>
 <script src="./js/question.js"></script>
 </html>
