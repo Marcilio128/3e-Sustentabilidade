@@ -94,7 +94,7 @@ const q4 = {
     alternativaA: "Eólica",
     alternativaB: "Petróleo",
     alternativaC: "Oceânica",
-    alternativaD: "Carvão Vegetal",
+    alternativaD: "biomassa",
     correta: "Petróleo",
     motivo: "Na produção de energia por petróleo, é emitido gases tóxicos para a atmosfera e, consequentemente, para a natureza."
 }
@@ -115,46 +115,46 @@ const q6 = {
     pergunta: "O que são produtos biodegradáveis?",
     alternativaA: "Objetos feitos com material reciclável",
     alternativaB: "Produtos recicláveis ",
-    alternativaC: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    alternativaC: "Produtos compostos por elementos orgânicos que se decompõem facilmente",
     alternativaD: "Categoria de produtos que são renováveis, ou seja, que não acaba",
-    correta: "Produtos que se decompõe facilmente compostos por elementos orgânicos",
+    correta: "Produtos compostos por elementos orgânicos que se decompõem facilmente",
     motivo: "Produtos biodegradáveis são produtos que se decompõem por algum agente biológico, por exemplo um corpo de um animal se decompondo por bactérias."
 }
 
 const q7 = {
     numQuestao: 7,
-    pergunta: "Qual das opções abaixo é um exemplo de reciclagem?",
+    pergunta: "Qual das opções abaixo é uma ação (ou processo) essencial para a reciclagem?",
     alternativaA: "Acúmulo de matéria prima",
     alternativaB: "Coleta Seletiva",
     alternativaC: "Replantio de árvore recém cortada",
     alternativaD: "Incineração",
     correta: "Coleta Seletiva",
-    motivo: "Porque uma das etapas da Coleta Seletiva é reciclar o que der e precisar reciclar."
+    motivo: "Pois uma das etapas da Coleta Seletiva é reciclar o que der e precisar reciclar."
 }
 
 const q8 = {
     numQuestao: 8,
     pergunta: "O que é coleta seletiva?",
-    alternativaA: "Processo de separação e coleta de resíduos para reciclagem",
+    alternativaA: "Processo de separação e coleta de resíduos sólidos para reciclagem",
     alternativaB: "Entrega de todo lixo reciclável para catadores de reciclagem",
     alternativaC: "Reaproveitamento de Recicláveis",
     alternativaD: "Coleta de lixos recicláveis",
-    correta: "Processo de separação e coleta de resíduos para reciclagem",
+    correta: "Processo de separação e coleta de resíduos sólidos para reciclagem",
     motivo: "Porque o nome coleta vem de coletar os resíduos, e seletiva de selecionar, basicamente selecionando os resíduos para suas respectivas finalidades."
 }
 const q9 = {
     numQuestao: 9,
-    pergunta: "O que acontece se não executarmos o desenvolvimento sustentável?",
+    pergunta: "Qual é a consequência de não priorizarmos o desenvolvimento sustentável dos seres humanos?",
     alternativaA: "Não existirá lixeiras recicláveis",
     alternativaB: "Apenas as plantações irão perecer",
-    alternativaC: "Há a tendência de que os recursos naturais importantes esgotem",
+    alternativaC: "Há a tendência dos recursos naturais se esgotarem e de haver a extinção de seres vivos",
     alternativaD: "As empresas irão lucrar mais",
-    correta: "Há a tendência de que os recursos naturais importantes esgotem",
+    correta: "Há a tendência dos recursos naturais se esgotarem e de haver a extinção de seres vivos",
     motivo: "Porque o desenvolvimento sustentável visa principalmente a preservação do ambiente para futuras gerações terem o que precisam para sobreviver."
 }
 const q10 = {
     numQuestao: 10,
-    pergunta: "Quais desses meios de transporte não polue o ambiente?",
+    pergunta: "Quais desses meios de transporte não polui o ambiente?",
     alternativaA: "Bicicleta",
     alternativaB: "Navio",
     alternativaC: "Carro a combustão",

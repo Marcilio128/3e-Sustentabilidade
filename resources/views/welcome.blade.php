@@ -3,6 +3,7 @@
 @section('title', '3E')
 
 @section('button')
+
     
 <li><a href="#Descarte">Descarte</a></li>
 <li><a href="#Nossos_Projetos">Nossos Projetos</a></li>
@@ -15,12 +16,9 @@
     <div class="container">
         <div class="text-welcome">
             <h1>Conheça a importância do descarte consciente</h1>
-            <p> A sustentabilidade visa a preservação e manuntenção do meio ambiente, 
-                por diversas formas ou meios. E é de suma importância a sua presença no mundo 
-                para que seja possível manter a vida na Terra, para que futuramente nossas crianças 
-                tenham uma natureza para apreciar, um planeta para morar. 
-                A 3e Soluções também vem realizando ações sustentáveis para deixar o nosso planeta 
-                melhor no presente, para se manter no futuro.</p>
+            <p>
+            A sustentabilidade visa a preservação e manutenção do meio ambiente e dos seres vivos, através de atitudes que diminuem o impacto gerado pelos seres humanos. E é de suma importância a sua presença no mundo para que seja possível manter a vida na Terra, para que futuramente nossas crianças tenham uma natureza para apreciar, um planeta para morar. A 3e Soluções também vem realizando ações sustentáveis para deixar o nosso planeta melhor no presente, para se manter no futuro.
+            </p>
         </div>
 
 
