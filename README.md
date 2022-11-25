@@ -68,7 +68,7 @@ Concluido :heavy_check_mark:
 
 ## Acesso ao projeto
 
-Você pode baixar o projeto pelo GitHub [acessar o código fonte do projeto](https://github.com/Marcilio128/3e-Sustentabilidade)
+Você pode baixar o projeto pelo GitHub [acessando o código fonte do projeto](https://github.com/Marcilio128/3e-Sustentabilidade)
 
 ## Desenvolvedores
 <div align="center">
