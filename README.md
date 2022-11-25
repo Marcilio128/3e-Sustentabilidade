@@ -37,11 +37,11 @@ Concluido :heavy_check_mark:
 
 • Quiz:
 
-    Começe seu quiz responda 10 questões:
+    Começe seu quiz e responda a 10 questões:
     
-        -Cada questão te dará uma pontuação de -10 ou 10 pontos
-        -Para a pontuação final será considerado sua pontuação e seu tempo de resposta para as 10 questões
-        -Após cada resposta aparecerá um modal explicando a resposta correta de cada questão
+        -Cada questão te dará uma pontuação de -10 ou 10 pontos;
+        -Para a pontuação final será considerado sua pontuação e seu tempo de resposta para as 10 questões;
+        -Após cada resposta aparecerá um modal explicando a resposta correta de cada questão.
 
 ![questões](https://user-images.githubusercontent.com/72000036/203912364-e004d9fc-c6b0-43c4-8aa2-fe47cb3e9b84.png)
 
