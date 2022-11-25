@@ -1,5 +1,10 @@
+setTimeout(()=>{
+    localStorage.setItem("access", "true");
+}, 1000)
 
-
+    if(!!localStorage.getItem("access")){
+        window.location.href = "/Quiz3E"
+    }
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar

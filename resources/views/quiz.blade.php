@@ -57,7 +57,9 @@
     <div class="bola07"></div>
     <div class="bola08"></div>
 
-
+<script>
+    localStorage.removeItem("access", "true");
+</script>
 
 </body>
 <script src="/js/quiz.js" defer></script>
