@@ -22,7 +22,7 @@
 • Sobre o projeto Eco:
 
     O projeto 3e sustentabilidade é uma aplicação que trás como objetivo principal, 
-    contribui para o melhor desenvolvimento e treinamento de novos colaboradores da empresa 3e Soluções.
+    contribuir para o melhor desenvolvimento e treinamento de novos colaboradores da empresa 3e Soluções.
     
 ## Status do projeto
 
