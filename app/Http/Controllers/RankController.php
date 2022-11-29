@@ -36,7 +36,7 @@ class RankController extends Controller
         $_SESSION['nome'] = $_POST['nome'];
             $ConditionWhereName = rank::select('nome')->where('nome', $_POST['nome'])->get();
             if ( $ConditionWhereName->count() != 0 ){
-                return back()->withErrors('Usuário já Existente!');
+                return back()->withErrors('Usuário já existente!');
             }
 
         return redirect('/question');
