@@ -30,7 +30,7 @@
 
             <div class="card-register">
 
-                <img src="/assets/3e-logo-color.png" alt="">
+                <a href="/"><img src="/assets/3e-logo-color.png" alt=""></a>
                 <h2 class="text-register">Está pronto para começar?</h2>
                 <div class="box">
                     <form action="/save" method="POST"> {{-- envio e encaminhamento para o banco de dados e formulário --}}

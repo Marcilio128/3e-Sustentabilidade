@@ -22,7 +22,7 @@ margin: auto;
 	flex-direction: column;
 }
 
-.card-register > img{
+.card-register > a > img{
 	width: 10rem;
 	margin: 1rem auto;
 }
