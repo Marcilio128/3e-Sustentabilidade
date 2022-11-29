@@ -29,12 +29,15 @@ class RankController extends Controller
 
     // manipulação de dados
     public function usr(Request $request){
-
         if(!isset($_SESSION)){
             session_start();
         }
 
         $_SESSION['nome'] = $_POST['nome'];
+            $ConditionWhereName = rank::select('nome')->where('nome', $_POST['nome'])->get();
+            if ( $ConditionWhereName->count() != 0 ){
+                return back()->withErrors('Usuário já Existente!');
+            }
 
         return redirect('/question');
     }

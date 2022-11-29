@@ -42,11 +42,21 @@
                         </div>
                         <input value="Começar" type="submit" class="btn" id="btnSubmit">
                         <button class="btnPoints" id="btnSubmit" onclick="ForTo(event)">Pontuação</button>
+                        @if ($errors->any())
+                        <div>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <p>{{ $error }}</p>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     </form>
                 </div>
             </div>
             <div class="bolão03"></div>
             <div class="bolão04"></div>
+
 
 
     </section>
