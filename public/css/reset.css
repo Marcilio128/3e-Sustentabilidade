@@ -19,29 +19,28 @@
     --bg-blue-dark: #142136;
 
 }
+
 body {
     /* cores de texto */
     --text-white: #ffffff;
-    --text-dark: #142136;
   
     /* cores de fundo */
-    --bg-grey-light: #f5f5f5;
     --bg-white: #ffffff;
     --bg-blue-dark: #142136;
     --bg-indigo: #6366f1;
   
     font-family: "Inter", sans-serif;
-    line-height: 1.7;
     background-color: var(--bg-grey-light);
   }
   .dark {
     --text-white: #e6e6e6;
     --text-dark: #ffffff;
-    --bg-grey-light: #142136;
+    --bg-grey-light: #000000;
     --bg-white: #22395d;
     --bg-blue-dark: #142136;
     --bg-indigo: #7577e1;
   }
+
   .text-wrapper {
     width: 100%;
     padding: 20px;
@@ -112,4 +111,119 @@ img{
     body::-webkit-scrollbar-thumb {
         background-color: transparent;
     }
+}
+
+.cardDark{
+    position: fixed;
+    width: 20%;
+    bottom: 0%;
+    height: 10%;
+    z-index: 3000;
+    right: -15%;
+    justify-content: space-between;
+    border-radius: 3rem 0 0 3rem;
+    margin: 1rem 0rem;
+    -webkit-transition: 0.5s ease-out;
+-moz-transition: 0.5s ease-out;
+-o-transition: 0.5s ease-out;
+transition: 0.5s ease-out;
+    background-color: rgba(213, 77, 9, 0.344);
+}
+
+.cardDark:hover{
+    right: 0%;
+  }
+
+
+.lua{
+    position: absolute;
+    right: 0%;
+    margin: 0 3rem;
+}
+
+.sol{
+    position: absolute;
+    left: 0%;
+    margin: 0 3rem;
+}
+
+  :root {
+	--dur: 0.3s;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+top: 50%;
+transform: translateY(-50%); 
+
+}
+ .toggle:before, .toggle:after {
+	background: hsl(0,0%,90%);
+}
+form, .toggle {
+	position: relative;
+}
+
+.curtain, .sr, .toggle:before, .toggle:after {
+	position: absolute;
+}
+.curtain, .toggle:before, .toggle:after {
+	transition: transform var(--dur);
+}
+.curtain, .toggle:before, .toggle:checked:after  {
+	transition-timing-function: ease-out;
+}
+
+
+.sr, .toggle {
+	overflow: hidden;
+}
+.sr {
+	clip: rect(1px,1px,1px,1px);
+	color: transparent;
+	width: 1px;
+	height: 1px;
+}
+.toggle {
+	background: currentColor;
+	border-radius: 0.75em;
+	cursor: pointer;
+	width: 3em;
+	height: 1.5em;
+	-webkit-appearance: none;
+	appearance: none;
+	-webkit-tap-highlight-color: transparent;
+}
+.toggle:before, .toggle:after {
+	border-radius: 50%;
+	content: "";
+	display: block;
+	top: 0.25em;
+	left: 0.25em;
+	width: 1em;
+	height: 1em;
+}
+.toggle:before, .toggle:checked:after {
+	transition-delay: 0s;
+}
+.toggle:checked:before, .toggle:after {
+	transition-delay: calc(var(--dur) * 0.75);
+	transition-timing-function: cubic-bezier(0.3,1.6,0.5,0.7);
+}
+.toggle:before {
+	transform: translateX(-1.5em);
+}
+.toggle:checked:before {
+	transform: translateX(1.5em);
+}
+.toggle:checked:after {
+	transform: translateX(3em);
+}
+.toggle:checked ~ .curtain {
+	transform: scaleX(1);
+}
+.toggle:focus {
+	outline: transparent;
 }

@@ -23,10 +23,15 @@
     </head>
     <body>
         <header class="sec-start">
+            
             <div class="container">
                 <nav class="menu" id="nav">
-                    <a href="/"><img src="/assets/logo3e.png" class="logo-3e" alt=""></a>
                     
+                    <a href="/"><img src="/assets/logo3e.png" class="logo-3e" alt=""></a>
+                 
+                       
+              
+
                     <button id="btn-mobile"> <span id="icon-menu"></span> </button>
                     <ul class="items" role="menu">
                     <li><a href="/">Inicio</a></li>
@@ -37,6 +42,20 @@
             </div>
         </header>
         
+
+<div class="cardDark">
+
+    
+    <form>
+        <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on">
+        <label for="dark-mode" translate="no" class="sr">Dark Mode</label>
+        <div class="curtain"></div>
+    </form>
+    
+    <img src="./assets/sol.png" class="sol" alt="" />
+    <img src="./assets/lua-nova.png" class="lua" alt="" />
+</div>
+    
         <main>@yield('content')</main>
 
     
@@ -45,6 +64,9 @@
 </div>
 <div class="icon">
 <img class="logo-3e" src="/assets/logo3e.png" alt=""> </img>
+
+
+
         <p style="color: white;">&copy; 3E Soluções</p>
 
         <a href="https://www.linkedin.com/company/3e-solucoes-em-eficiencia-energetica/?originalSubdomain=br"><img src="/assets/linkedin.png" class="linedin" alt=""></a>

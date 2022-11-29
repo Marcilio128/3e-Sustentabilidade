@@ -11,10 +11,7 @@
 @endsection
 
 @section('content')
-
-<div class="buttons">
-    <button id="toggle" class="button">DARK</button>
-  </div>
+    
 
 <div data-aos="zoom-in">
 <section href="#inicio" class="sec-welcomeOne">
@@ -27,7 +24,7 @@
         </div>
 
 
-        <lottie-player class="animation" src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
+        <lottie-player class="animation" src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json" background="transparent" fill="transparent" speed="1"    loop  autoplay></lottie-player>
     </div>
 </section>
 
