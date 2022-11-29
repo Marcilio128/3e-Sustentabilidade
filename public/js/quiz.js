@@ -18,7 +18,7 @@ btn.addEventListener("keyup", function(event){
         // faz a validação novamente
         if (!this.validity.valid) {
             // se estiver inválido, coloca a mensagem
-            this.setCustomValidity("Nome não pode ter caracteres especiais!");
+            this.setCustomValidity("Nome não pode ter caracteres especiais nem ser vazio!");
          }
      };
 
