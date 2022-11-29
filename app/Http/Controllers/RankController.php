@@ -38,7 +38,9 @@ class RankController extends Controller
             if ( $ConditionWhereName->count() != 0 ){
                 return back()->withErrors('Usuário já existente!');
             }
-
+            if ( strlen(str_replace(' ', '', $_POST['nome'])) == 0 ){
+                return back()->withErrors('Nome não pode ficar vazio!');
+            }
         return redirect('/question');
     }
 

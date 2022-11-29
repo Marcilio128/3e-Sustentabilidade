@@ -12,6 +12,15 @@ btn.addEventListener("keyup", function(event){
         document.getElementById("btnSubmit").disabled = true;
       }});
 
+      document.querySelector('#name').oninvalid = function() {  
+        // remove mensagens de erro padrão
+        this.setCustomValidity("");
+        // faz a validação novamente
+        if (!this.validity.valid) {
+            // se estiver inválido, coloca a mensagem
+            this.setCustomValidity("Nome não pode ter caracteres especiais nem ser vazio!");
+         }
+     };
 
 function SendTo(event){
     event.preventDefault();

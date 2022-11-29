@@ -2,9 +2,6 @@ setTimeout(()=>{
     localStorage.setItem("access", "true");
 }, 1000)
 
-    if(!!localStorage.getItem("access")){
-        window.location.href = "/Quiz3E"
-    }
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 // pontos para o placar
@@ -77,7 +74,7 @@ const q2 = {
     alternativaC: "Luz e vida",
     alternativaD: "Eco",
     correta: "Eco",
-    motivo: "Este projeto foi criado visando diminuir o gasto por energia, e junto diminuindo a quantidade de resíduos descartados incorretamente e ajudar quem precisa."
+    motivo: "Este projeto foi criado visando diminuir o gasto por energia, e simultaneamente, diminuindo a quantidade de resíduos descartados incorretamente e ajudar quem precisa."
 
 
 }
@@ -85,12 +82,12 @@ const q2 = {
 const q3 = {
     numQuestao: 3,
     pergunta: "Qual a importância da sustentabilidade?",
-    alternativaA: "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
-    alternativaB: "Preservar a natureza para que o homem possa usar para ações industriais futuras",
+    alternativaA: "Conservar o meio ambiente para manter a Terra saudável, e que futuras gerações tenham o melhor ambiente para morar",
+    alternativaB: "Preservar a natureza, para que o homem possa usar para ações industriais futuras",
     alternativaC: "Ajudar a manter as pessoas nas suas casas da cidade",
-    alternativaD: "Conservar o meio ambiente para ajudar a evitar única e exclusivamente o efeito estufa",
-    correta: "Conservar o meio ambiente para manter a Terra saudável e que futuras gerações tenham o melhor ambiente para morar",
-    motivo: "Porque a sustentabilidade busca a preservação ambiental."
+    alternativaD: "Conservar o meio ambiente, para ajudar a evitar única e exclusivamente o efeito estufa",
+    correta: "Conservar o meio ambiente para manter a Terra saudável, e que futuras gerações tenham o melhor ambiente para morar",
+    motivo: "A sustentabilidade busca a preservação ambiental."
 }
 
 const q4 = {
@@ -109,10 +106,10 @@ const q5 = {
     pergunta: "Quais são os benefícios da sustentabilidade?",
     alternativaA: "Diminuir a obesidade",
     alternativaB: "Evitar que o homem desmate árvores",
-    alternativaC: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
-    alternativaD: "Causar peso na consciência nos praticantes de atos contra o meio ambiente",
-    correta: "Evitar vários problemas ambientais que podem acarretar em grandes desastres no futuro",
-    motivo: 'Porque a sustentabilidade visa justamente evitar ao máximo que nossa natureza "suma" para futuras gerações.'
+    alternativaC: "Evitar vários problemas ambientais, que podem acarretar em grandes desastres no futuro",
+    alternativaD: "Causar peso na consciência, nos praticantes de atos contra o meio ambiente",
+    correta: "Evitar vários problemas ambientais, que podem acarretar em grandes desastres no futuro",
+    motivo: 'Porque a sustentabilidade visa, principalmente, evitar ao máximo que nossa natureza "suma" para futuras gerações.'
 }
 
 const q6 = {
@@ -120,10 +117,10 @@ const q6 = {
     pergunta: "O que são produtos biodegradáveis?",
     alternativaA: "Objetos feitos com material reciclável",
     alternativaB: "Produtos recicláveis ",
-    alternativaC: "Produtos compostos por elementos orgânicos que se decompõem facilmente",
+    alternativaC: "Produtos compostos por elementos orgânicos, que se decompõem facilmente",
     alternativaD: "Categoria de produtos que são renováveis, ou seja, que não acaba",
-    correta: "Produtos compostos por elementos orgânicos que se decompõem facilmente",
-    motivo: "Produtos biodegradáveis são produtos que se decompõem por algum agente biológico, por exemplo um corpo de um animal se decompondo por bactérias."
+    correta: "Produtos compostos por elementos orgânicos, que se decompõem facilmente",
+    motivo: "Produtos biodegradáveis são produtos que se decompõem por algum agente biológico, por exemplo, um corpo de um animal se decompondo por bactérias."
 }
 
 const q7 = {
@@ -134,7 +131,7 @@ const q7 = {
     alternativaC: "Replantio de árvore recém cortada",
     alternativaD: "Incineração",
     correta: "Coleta Seletiva",
-    motivo: "Pois uma das etapas da Coleta Seletiva é reciclar o que der e precisar reciclar."
+    motivo: "Uma das etapas da Coleta Seletiva é reciclar o que der, e precisar reciclar."
 }
 
 const q8 = {
@@ -145,17 +142,17 @@ const q8 = {
     alternativaC: "Reaproveitamento de Recicláveis",
     alternativaD: "Coleta de lixos recicláveis",
     correta: "Processo de separação e coleta de resíduos sólidos para reciclagem",
-    motivo: "Porque o nome coleta vem de coletar os resíduos, e seletiva de selecionar, basicamente selecionando os resíduos para suas respectivas finalidades."
+    motivo: "O nome coleta origina de coletar os resíduos, e seletiva de selecionar, basicamente selecionando os resíduos para suas respectivas finalidades."
 }
 const q9 = {
     numQuestao: 9,
     pergunta: "Qual é a consequência de não priorizarmos o desenvolvimento sustentável dos seres humanos?",
     alternativaA: "Não existirá lixeiras recicláveis",
     alternativaB: "Apenas as plantações irão perecer",
-    alternativaC: "Há a tendência dos recursos naturais se esgotarem e de haver a extinção de seres vivos",
+    alternativaC: "Há a tendência dos recursos naturais se esgotarem, e de haver a extinção de seres vivos",
     alternativaD: "As empresas irão lucrar mais",
-    correta: "Há a tendência dos recursos naturais se esgotarem e de haver a extinção de seres vivos",
-    motivo: "Porque o desenvolvimento sustentável visa principalmente a preservação do ambiente para futuras gerações terem o que precisam para sobreviver."
+    correta: "Há a tendência dos recursos naturais se esgotarem, e de haver a extinção de seres vivos",
+    motivo: "O desenvolvimento sustentável visa, principalmente, a preservação do ambiente para futuras gerações terem o que precisam para sobreviver."
 }
 const q10 = {
     numQuestao: 10,
