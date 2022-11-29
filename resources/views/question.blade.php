@@ -70,7 +70,11 @@
     </div>
 </section>
 
-
+<script>
+      if(!!localStorage.getItem("access")){
+        window.location.href = "/Quiz3E"
+    }
+</script>
 
   </body>
 </main>
