@@ -42,7 +42,7 @@
                             @foreach ($ranks as $rank)
                                 <tr>
                                     {{-- posicionamento crescente da exibição dos dados --}}
-                                    <td>@php
+                                      <td>@php
                                         $a++;
                                         echo "$a"."°";
                                     @endphp</td>

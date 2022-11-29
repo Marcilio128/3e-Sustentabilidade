@@ -11,10 +11,15 @@
 @endsection
 
 @section('content')
+
+<div class="buttons">
+    <button id="toggle" class="button">DARK</button>
+  </div>
+
 <div data-aos="zoom-in">
 <section href="#inicio" class="sec-welcomeOne">
     <div class="container">
-        <div class="text-welcome">
+        <div class="text-welcome paragraph">
             <h1>Conheça a importância do descarte consciente</h1>
             <p>
             A sustentabilidade visa a preservação e manutenção do meio ambiente e dos seres vivos, através de atitudes que diminuem o impacto gerado pelos seres humanos. E é de suma importância a sua presença no mundo para que seja possível manter a vida na Terra, para que futuramente nossas crianças tenham uma natureza para apreciar, um planeta para morar. A 3e Soluções também vem realizando ações sustentáveis para deixar o nosso planeta melhor no presente, para se manter no futuro.
@@ -44,7 +49,7 @@
             <div class="box">
                 <div class="content">
                     <img src="/assets/plastico-lixeira.png" alt="" class="cardP-img" srcset="">
-                        <h3>Plastico</h3>
+                        <h3>Plásticos</h3>
                          <p>Para materiais de plástico, a lixeira vermelha é a correta para o descarte. Nela você poderá descartar
                         materiais feitos de plástico</p>
                 </div>
@@ -55,7 +60,7 @@
             <div class="box">
                 <div class="content">
                     <img src="/assets/metal-lixeira.png" alt="" class="cardP-img" srcset="">
-                        <h3>Metal</h3>
+                        <h3>Metais</h3>
                         <p>Para materiais de metais, a lixeira amarela é a correta para o descarte. Nela você poderá descartar
                         materiais feitos de metais</p>
                 </div>
@@ -68,7 +73,7 @@
             <div class="box">
                 <div class="content">
                     <img src="/assets/papeis-lixeiras.png" alt="" class="cardP-img" srcset="">
-                        <h3>Papeis</h3>
+                        <h3>Papéis</h3>
                         <p>Para materiais de papel, a lixeira azul é a correta para o descarte. Nela você poderá descartar
                         materiais feitos de papel</p>
                 </div>
@@ -106,7 +111,7 @@
                 
                 <div class="Ecoenel">
                     <div class="text-Ecoenel">
-                        <h2>Ecoenel</h2>
+                        <h2>Eco</h2>
                         <p>Reconhecimento nacional e internacional, o projeto Eco é um programa, que virou referência em ações 
                         de sustentabilidade. O projeto visa promover a troca de resíduos recicláveis por bônus na conta de luz
                         nos estados. Formando uma rede de parcerias entre cliente, empresa e reciclador, 
