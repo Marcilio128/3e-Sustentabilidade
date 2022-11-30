@@ -3,6 +3,7 @@
 @section('title', '3E')
 
 @section('button')
+<link rel="stylesheet" href="./css/DarkMode.css">
 
     
 <li><a href="#Descarte">Descarte</a></li>
@@ -11,7 +12,7 @@
 @endsection
 
 @section('content')
-    
+
 
 <div data-aos="zoom-in">
 <section href="#inicio" class="sec-welcomeOne">
@@ -82,7 +83,7 @@
                 <div class="content">
                     <img src="/assets/vidros-lixeiras.png" alt="" class="cardP-img" srcset="">
                         <h3>Vidros</h3>
-                        <p>Para materiais de vidros, a lixeira azul é a correta para o descarte. Nela você poderá descartar
+                        <p>Para materiais de vidros, a lixeira verde é a correta para o descarte. Nela você poderá descartar
                         materiais feitos de vidros</p>
                 </div>
             </div>

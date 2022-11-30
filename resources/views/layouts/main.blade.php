@@ -44,18 +44,7 @@
         </header>
         
 
-<div class="cardDark">
 
-    
-    <form>
-        <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on">
-        <label for="dark-mode" translate="no" class="sr">Dark Mode</label>
-        <div class="curtain"></div>
-    </form>
-    
-    <img src="./assets/sol.png" class="sol" alt="" />
-    <img src="./assets/lua-nova.png" class="lua" alt="" />
-</div>
     
         <main>@yield('content')</main>
 
@@ -68,13 +57,17 @@
 
 
 
-        <p style="color: white;">&copy; 3E Soluções</p>
+        <p style="color: white;">&copy; 3e Soluções <br> Acesse nossas informações oficiais</p>
 
-        <a href="https://www.linkedin.com/company/3e-solucoes-em-eficiencia-energetica/?originalSubdomain=br"><img src="/assets/linkedin.png" class="linedin" alt=""></a>
+        <a href="https://www.linkedin.com/company/3e-solucoes-em-eficiencia-energetica/?originalSubdomain=br"><img src="/assets/linkedin.png" class="linedin" aria-placeholder="oi" alt=""></a>
+        
         <a href="https://site.3esolucoes.com.br/"><img src="/assets/Link.png" class="link" alt=""></a>
+        
         <a href="https://3esolucoes.gupy.io/"><img src="/assets/TrabalheConosco.png" class="wpp" alt=""></a>
 
     </div>
+
+ 
 </footer>
 
     </body>

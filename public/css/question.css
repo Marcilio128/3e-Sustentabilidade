@@ -87,10 +87,10 @@ h2{
 }
 
 .respostas{
-	width: 500px;
-	padding: 8px 5px;
-	margin: 0.5rem ;
-
+	width: 550px;
+	padding: 8px 10px;
+	margin: 0.5rem;
+    
 	display: flex;
 	justify-content: center;
 	text-decoration: none;

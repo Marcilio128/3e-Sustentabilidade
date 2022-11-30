@@ -237,14 +237,14 @@ function verificarSeAcertou(nQuestao, resposta) {
 
     if (respostaEscolhida == certa) {
         pontos += 10
-        show.innerText = "Você Acertou:  " + certa + " é a resposta correta";
+        show.innerText = "Você acertou:  " + certa + " é a resposta correta";
         explicação.innerText = porque;
     }
     else {
         pontos += -10
 
 
-        show.innerText = "Você Errou:  " + certa + " é a resposta correta";
+        show.innerText = "Você errou:  " + certa + " é a resposta correta";
         explicação.innerText = porque;
     }
     // atualizar placar
