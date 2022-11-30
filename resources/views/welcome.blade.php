@@ -17,7 +17,7 @@
 <div data-aos="zoom-in">
 <section href="#inicio" class="sec-welcomeOne">
     <div class="container">
-        <div class="text-welcome paragraph">
+        <div class="text-welcome paragraph wrap">
             <h1>Conheça a importância do descarte consciente</h1>
             <p>
             A sustentabilidade visa a preservação e manutenção do meio ambiente e dos seres vivos, através de atitudes que diminuem o impacto gerado pelos seres humanos. E é de suma importância a sua presença no mundo para que seja possível manter a vida na Terra, para que futuramente nossas crianças tenham uma natureza para apreciar, um planeta para morar. A 3e Soluções também vem realizando ações sustentáveis para deixar o nosso planeta melhor no presente, para se manter no futuro.
@@ -25,7 +25,7 @@
         </div>
 
 
-        <lottie-player class="animation" src="https://assets9.lottiefiles.com/packages/lf20_mndgsj3k.json" background="transparent" fill="transparent" speed="1"    loop  autoplay></lottie-player>
+        <lottie-player class="animation" src="./assets/Polution.json" background="transparent" fill="transparent" speed="1"    loop  autoplay></lottie-player>
     </div>
 </section>
 
@@ -93,7 +93,10 @@
 </div>
 
 
+
+</p>
 </div>
+
 
 <div data-aos="fade-up">
 

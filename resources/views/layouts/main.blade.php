@@ -20,7 +20,7 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <title>@yield('title')</title>
-        
+   
     </head>
     <body>
         <header class="sec-start">
